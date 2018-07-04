@@ -1,20 +1,22 @@
 //
-//  CustomTableViewCell.swift
+//  CustomTableViewCell2.swift
 //  iOSappcheck
 //
-//  Created by Yasuteru on 2018/06/18.
+//  Created by Yasuteru on 2018/06/22.
 //  Copyright © 2018年 Yasuteru. All rights reserved.
 //
 
 import UIKit
 
-class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDataSource {
-
+class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDataSource{
+    
     @IBOutlet weak var elementPick: UITextField!
     @IBOutlet weak var rarityPick: UITextField!
     @IBOutlet weak var stonePick: UITextField!
-   
+    
     var delegate: UIViewController?
+    
+    var pickerView1: UIPickerView = UIPickerView()
     var elelist = ["火","風","土","水","光","闇"]
     
     var pickerView2: UIPickerView = UIPickerView()
@@ -22,46 +24,31 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
     
     var pickerView3: UIPickerView = UIPickerView()
     var summonlist = Dictionary<String, NSDictionary>()
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
-//        //plistを参照
-//        let path = Bundle.main.path(forResource: "stone", ofType: "plist")
-//        //参照したplistを、dictionaryのsummonに納入
-//        let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
-//
-//        // dataの中身の取り出し
-//        for (element,rarity) in summon {
-//            for (rarity,stone) in rarity as! NSDictionary {
-//                for (stone,data) in stone  as! NSDictionary {
-////                    print(summon["光"]!["R"])
-////                    print(stone)
-//                }
-//            }
-//        }
-//        print(summon["光"]!["R"])
-
-//        // ピッカー１
-//        pickerView1.tag = 1
-//        pickerView1.delegate = self
-//        pickerView1.dataSource = self
-//
-//        let vi1 = UIView(frame: pickerView1.bounds)
-//        vi1.backgroundColor = UIColor.white
-//        vi1.addSubview(pickerView1)
-//
-//        elementPick.inputView = vi1
-//
-//        let toolBar1 = UIToolbar()
-//        toolBar1.barStyle = UIBarStyle.default
-//        let doneButton1   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
-//        toolBar1.setItems([doneButton1], animated: false)
-//        toolBar1.isUserInteractionEnabled = true
-//        toolBar1.sizeToFit()
-//        elementPick.inputAccessoryView = toolBar1
-
+        // ピッカー１
+        pickerView1.tag = 1
+        pickerView1.delegate = self
+        pickerView1.dataSource = self
+        
+        let vi1 = UIView(frame: pickerView1.bounds)
+        vi1.backgroundColor = UIColor.white
+        vi1.addSubview(pickerView1)
+        
+        print(vi1)
+        elementPick.inputView = vi1
+        
+        let toolBar1 = UIToolbar()
+        toolBar1.barStyle = UIBarStyle.default
+        let doneButton1   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
+        toolBar1.setItems([doneButton1], animated: false)
+        toolBar1.isUserInteractionEnabled = true
+        toolBar1.sizeToFit()
+        elementPick.inputAccessoryView = toolBar1
+        
         // ピッカー2
         pickerView2.tag = 2
         pickerView2.delegate = self
@@ -99,15 +86,13 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
         toolBar3.isUserInteractionEnabled = true
         toolBar3.sizeToFit()
         stonePick.inputAccessoryView = toolBar3
-        
     }
-    
-    @IBAction func tapStoneName(_ sender: UITextField) {
+    @IBAction func tapStoneName2(_ sender: UITextField) {
         print("たっぷされたよ")
-        if rarityPick.text == "レアリティ" {
+        if rarityPick.text == "レアリティ" || elementPick.text == "属性" {
             print(123)
             //アラートを作る
-            let alertController = UIAlertController(title: "レアリティが選択されていません", message: "選択してください", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "レアリティ又は属性が選択されていません", message: "選択してください", preferredStyle: .alert)
             //OKボタンを追加
             // handler はボタンが押された時に発動
             alertController.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
@@ -127,15 +112,19 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
         return 1
     }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        if pickerView.tag == 2 {
+        if pickerView.tag == 1 {
+            return elelist.count
+        } else if pickerView.tag == 2 {
             return rarelist.count
-        } else  {
+        } else {
             return summonlist.count
         }
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        if pickerView.tag == 2 {
+        if pickerView.tag == 1 {
+            return elelist[row]
+        } else if pickerView.tag == 2 {
             return rarelist[row]
         } else {
             let stoneNameKeys = [String](summonlist.keys)
@@ -143,23 +132,32 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
         }
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        if pickerView.tag == 2{
+        if pickerView.tag == 1 {
+            elementPick.text = elelist[row]
+            if rarityPick.text != "レアリティ" {
+                let path = Bundle.main.path(forResource: "stone", ofType: "plist")
+                //参照したplistを、dictionaryのsummonに納入
+                let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
+                summonlist = summon[elementPick.text!]![rarityPick.text!] as! Dictionary<String, NSDictionary>
+                print(summonlist)
+            }
+        } else if pickerView.tag == 2{
             rarityPick.text = rarelist[row]
-            //plistを参照
-            let path = Bundle.main.path(forResource: "stone", ofType: "plist")
-            //参照したplistを、dictionaryのsummonに納入
-            let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
-            summonlist = summon[elementPick.text!]![rarityPick.text!] as! Dictionary<String, NSDictionary>
-            print(summonlist)
+            if elementPick.text != "属性" {
+                //plistを参照
+                let path = Bundle.main.path(forResource: "stone", ofType: "plist")
+                //参照したplistを、dictionaryのsummonに納入
+                let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
+                summonlist = summon[elementPick.text!]![rarityPick.text!] as! Dictionary<String, NSDictionary>
+                print(summonlist)
+            }
         } else {
             let stoneNameKeys = [String](summonlist.keys)
             stonePick.text = stoneNameKeys[row]
-            
         }
-        
     }
 
-    
+
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

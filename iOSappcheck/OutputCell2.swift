@@ -10,4 +10,5 @@ import UIKit
 
 class OutputCell2: UICollectionViewCell {
     
+    @IBOutlet weak var IDLabel: UILabel!
 }

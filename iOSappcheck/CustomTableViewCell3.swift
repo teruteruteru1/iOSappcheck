@@ -16,22 +16,10 @@ class CustomTableViewCell3: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
-//        myIDLabel.keyboardType = UIKeyboardType.numberPad
-//        
-//        let toolBar = UIToolbar()
-//        toolBar.barStyle = UIBarStyle.default
-//        let doneButton   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell3.donePressed))
-//        toolBar.setItems([doneButton], animated: false)
-//        toolBar.isUserInteractionEnabled = true
-//        toolBar.sizeToFit()
-//        myIDLabel.inputAccessoryView = toolBar
+
     }
     
-    // Done
-    @objc func donePressed() {
-        myIDLabel.endEditing(true)
-    }
+
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

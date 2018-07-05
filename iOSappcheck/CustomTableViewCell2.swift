@@ -41,13 +41,13 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
         print(vi1)
         elementPick.inputView = vi1
         
-        let toolBar1 = UIToolbar()
-        toolBar1.barStyle = UIBarStyle.default
-        let doneButton1   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
-        toolBar1.setItems([doneButton1], animated: false)
-        toolBar1.isUserInteractionEnabled = true
-        toolBar1.sizeToFit()
-        elementPick.inputAccessoryView = toolBar1
+//        let toolBar1 = UIToolbar()
+//        toolBar1.barStyle = UIBarStyle.default
+//        let doneButton1   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
+//        toolBar1.setItems([doneButton1], animated: false)
+//        toolBar1.isUserInteractionEnabled = true
+//        toolBar1.sizeToFit()
+//        elementPick.inputAccessoryView = toolBar1
         
         // ピッカー2
         pickerView2.tag = 2
@@ -60,13 +60,13 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
         
         rarityPick.inputView = vi2
         
-        let toolBar2 = UIToolbar()
-        toolBar2.barStyle = UIBarStyle.default
-        let doneButton2   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
-        toolBar2.setItems([doneButton2], animated: false)
-        toolBar2.isUserInteractionEnabled = true
-        toolBar2.sizeToFit()
-        rarityPick.inputAccessoryView = toolBar2
+//        let toolBar2 = UIToolbar()
+//        toolBar2.barStyle = UIBarStyle.default
+//        let doneButton2   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
+//        toolBar2.setItems([doneButton2], animated: false)
+//        toolBar2.isUserInteractionEnabled = true
+//        toolBar2.sizeToFit()
+//        rarityPick.inputAccessoryView = toolBar2
         
         // ピッカー3
         pickerView3.tag = 3
@@ -79,13 +79,13 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
         
         stonePick.inputView = vi3
         
-        let toolBar3 = UIToolbar()
-        toolBar3.barStyle = UIBarStyle.default
-        let doneButton3   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
-        toolBar3.setItems([doneButton3], animated: false)
-        toolBar3.isUserInteractionEnabled = true
-        toolBar3.sizeToFit()
-        stonePick.inputAccessoryView = toolBar3
+//        let toolBar3 = UIToolbar()
+//        toolBar3.barStyle = UIBarStyle.default
+//        let doneButton3   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
+//        toolBar3.setItems([doneButton3], animated: false)
+//        toolBar3.isUserInteractionEnabled = true
+//        toolBar3.sizeToFit()
+//        stonePick.inputAccessoryView = toolBar3
     }
     @IBAction func tapStoneName2(_ sender: UITextField) {
         print("たっぷされたよ")

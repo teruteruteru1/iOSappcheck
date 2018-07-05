@@ -8,16 +8,17 @@
 
 import UIKit
 
+var stones: Array<String?> = []
+
 class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSource {
     
     @IBOutlet weak var myTableView: UITableView!
     
+//    var stones: Array<String?> = []
+    
     var CustomCell : CustomTableViewCell!
     var CustomCell2 : CustomTableViewCell2!
     var CustomCell3 : CustomTableViewCell3!
-    
-    var stones: Array<String?> = []
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,25 +48,13 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
             
         }
         CustomCell3 = tableView.dequeueReusableCell(withIdentifier: "CustomCell3") as! CustomTableViewCell3
-//        CustomCell3.myIDLabel.keyboardType = UIKeyboardType.numberPad
-//        
-//        let toolBar = UIToolbar()
-//        toolBar.barStyle = UIBarStyle.default
-//        let doneButton   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell3.donePressed))
-//        toolBar.setItems([doneButton], animated: false)
-//        toolBar.isUserInteractionEnabled = true
-//        toolBar.sizeToFit()
-//        CustomCell3.myIDLabel.inputAccessoryView = toolBar
-        
         return CustomCell3
-        
-        
     }
 
     @IBAction func tapOutput(_ sender: UIButton) {
         karappo()
-        self.performSegue(withIdentifier: "segueko", sender: nil)
-//        print(stones)
+//        self.performSegue(withIdentifier: "segueko", sender: nil)
+        print(stones)
     }
     
     
@@ -89,7 +78,11 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
         }
         
     }
-    
+    //    戻ってきた時に発動する関数を先に書いて
+    //    storybardでbuttonからFirstViewControllerのExitへつなぐことで戻れる
+    @IBAction func exitview(segue:UIStoryboardSegue) {
+        print("もどる")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

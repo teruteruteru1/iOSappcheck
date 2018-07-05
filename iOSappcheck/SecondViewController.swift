@@ -18,8 +18,8 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
     var Cell2 : OutputCell2!
     var View1 : ViewController!
     
-    var selectedName : Array<String?> = []
-    
+    var stoneName = Dictionary<String, NSDictionary>()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,8 +27,15 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         myCollectionView.delegate = self
         myCollectionView.dataSource = self
         
-//        print(View1.stones)
+//        print(stones)
+//        //plistを参照
+//        let path = Bundle.main.path(forResource: "stone", ofType: "plist")
+//        //参照したplistを、dictionaryのsummonに納入
+//        let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
+//        stoneName = summon[Cell1.summonlabel.text!] as! Dictionary<String, NSDictionary>
         
+        
+//        print(stones)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -38,12 +45,11 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         if indexPath.row < 8 {
             Cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell1", for: indexPath) as! OutputCell1
             Cell1.elementlabel.text = element[indexPath.row]
-//            Cell1.summonlabel.text = View1.stones[indexPath.row]
-            
-            
+            Cell1.summonlabel.text = stones[indexPath.row]
             return Cell1
         } else {
             Cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell2", for: indexPath) as! OutputCell2
+            Cell2.IDLabel.text = stones[indexPath.row]
             return Cell2
         }
     }

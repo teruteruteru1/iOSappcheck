@@ -10,7 +10,6 @@
 		C0BE62B008F94F48056E530A /* Pods_iOSappcheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA76BD0C8CD5E54C1639A56 /* Pods_iOSappcheck.framework */; };
 		DD24448C20E4C99900FDC04D /* OutputCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24448B20E4C99900FDC04D /* OutputCell1.swift */; };
 		DD24448E20E4CA7F00FDC04D /* OutputCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24448D20E4CA7F00FDC04D /* OutputCell2.swift */; };
-		DD24449020EB49C200FDC04D /* CustomTableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24448F20EB49C200FDC04D /* CustomTableViewCell3.swift */; };
 		DD24449220ECA99700FDC04D /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD24449120ECA99700FDC04D /* IQKeyboardManagerSwift.framework */; };
 		DD63089620DCE156001C8771 /* CustomTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD63089520DCE156001C8771 /* CustomTableViewCell2.swift */; };
 		DD6308B920E0D679001C8771 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6308B820E0D679001C8771 /* SecondViewController.swift */; };
@@ -30,7 +29,6 @@
 		B77A12174664A07317EC990B /* Pods-iOSappcheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSappcheck.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSappcheck/Pods-iOSappcheck.release.xcconfig"; sourceTree = "<group>"; };
 		DD24448B20E4C99900FDC04D /* OutputCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputCell1.swift; sourceTree = "<group>"; };
 		DD24448D20E4CA7F00FDC04D /* OutputCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputCell2.swift; sourceTree = "<group>"; };
-		DD24448F20EB49C200FDC04D /* CustomTableViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell3.swift; sourceTree = "<group>"; };
 		DD24449120ECA99700FDC04D /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD63089520DCE156001C8771 /* CustomTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell2.swift; sourceTree = "<group>"; };
 		DD6308B820E0D679001C8771 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				DDCED0F320D77B670037EEE6 /* Main.storyboard */,
 				DDCED12720D78E5E0037EEE6 /* CustomTableViewCell.swift */,
 				DD63089520DCE156001C8771 /* CustomTableViewCell2.swift */,
-				DD24448F20EB49C200FDC04D /* CustomTableViewCell3.swift */,
 				DD24448B20E4C99900FDC04D /* OutputCell1.swift */,
 				DD24448D20E4CA7F00FDC04D /* OutputCell2.swift */,
 				DDCED0F920D77B6A0037EEE6 /* Assets.xcassets */,
@@ -233,7 +230,6 @@
 				DDCED0F220D77B670037EEE6 /* ViewController.swift in Sources */,
 				DDCED0F820D77B670037EEE6 /* iOSappcheck.xcdatamodeld in Sources */,
 				DDCED12820D78E5E0037EEE6 /* CustomTableViewCell.swift in Sources */,
-				DD24449020EB49C200FDC04D /* CustomTableViewCell3.swift in Sources */,
 				DD24448C20E4C99900FDC04D /* OutputCell1.swift in Sources */,
 				DD63089620DCE156001C8771 /* CustomTableViewCell2.swift in Sources */,
 				DDCED0F020D77B670037EEE6 /* AppDelegate.swift in Sources */,

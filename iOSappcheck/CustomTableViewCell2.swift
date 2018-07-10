@@ -18,9 +18,10 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
     
     var pickerView1: UIPickerView = UIPickerView()
     var elelist = ["火","風","土","水","光","闇"]
+    var elelist2 = ["属性","火","風","土","水","光","闇"]
     
     var pickerView2: UIPickerView = UIPickerView()
-    var rarelist = ["R","SR","SSR"]
+    var rarelist = ["レアリティ","R","SR","SSR"]
     
     var pickerView3: UIPickerView = UIPickerView()
     var summonlist = Dictionary<String, NSDictionary>()
@@ -113,7 +114,7 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
     }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         if pickerView.tag == 1 {
-            return elelist.count
+            return elelist2.count
         } else if pickerView.tag == 2 {
             return rarelist.count
         } else {
@@ -123,7 +124,7 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if pickerView.tag == 1 {
-            return elelist[row]
+            return elelist2[row]
         } else if pickerView.tag == 2 {
             return rarelist[row]
         } else {
@@ -133,7 +134,7 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView.tag == 1 {
-            elementPick.text = elelist[row]
+            elementPick.text = elelist2[row]
             if rarityPick.text != "レアリティ" {
                 let path = Bundle.main.path(forResource: "stone", ofType: "plist")
                 //参照したplistを、dictionaryのsummonに納入

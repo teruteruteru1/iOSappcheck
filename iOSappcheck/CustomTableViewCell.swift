@@ -18,7 +18,7 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
     var elelist = ["火","風","土","水","光","闇"]
     
     var pickerView2: UIPickerView = UIPickerView()
-    var rarelist = ["R","SR","SSR"]
+    var rarelist = ["レアリティ","R","SR","SSR"]
     
     var pickerView3: UIPickerView = UIPickerView()
     var summonlist = Dictionary<String, NSDictionary>()
@@ -75,7 +75,7 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
     }
     
     @IBAction func tapStoneName(_ sender: UITextField) {
-        print("たっぷされたよ")
+//        print("たっぷされたよ")
         if rarityPick.text == "レアリティ" {
             print(123)
             //アラートを作る
@@ -110,28 +110,34 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
         if pickerView.tag == 2 {
             return rarelist[row]
         } else {
-            let stoneNameKeys = [String](summonlist.keys)
+//            let stoneNameKeys = [String](summonlist.keys)
+            let stoneNameKeys = summonlist.map { $0.key }.sorted { $0 < $1 }
             return stoneNameKeys[row]
         }
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView.tag == 2{
             rarityPick.text = rarelist[row]
+            if rarelist[row] == "レアリティ" {
+                return
+            }
             //plistを参照
             let path = Bundle.main.path(forResource: "stone", ofType: "plist")
             //参照したplistを、dictionaryのsummonに納入
             let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
             summonlist = summon[elementPick.text!]![rarityPick.text!] as! Dictionary<String, NSDictionary>
+            
 //            print(summonlist)
+//            print("------")
+//            print(summonlist.sorted { $0.key > $1.key }.map { $0.key })
+
         } else {
             let stoneNameKeys = [String](summonlist.keys)
             stonePick.text = stoneNameKeys[row]
 //            print(stoneNameKeys[row])
-            
         }
         
     }
-
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

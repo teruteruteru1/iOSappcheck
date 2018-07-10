@@ -6,13 +6,403 @@
 	<dict>
 		<key>SSR</key>
 		<dict>
+			<key>サテュロス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性キャラの攻撃力が40%UP/再生効果</string>
+				<key>img</key>
+				<string>2040053000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>サテュロス</key>
+			<dict>
+				<key>description</key>
+				<string>火属性キャラの攻撃力が30%UP/再生効果</string>
+				<key>img</key>
+				<string>2040053000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ザ・デビル3凸</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]火属性キャラの攻撃力110%UP/防御力30%UP/[サブ]火属性キャラのHPが20%UP</string>
+				<key>img</key>
+				<string>6112.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ザ・デビル</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]火属性キャラの攻撃力100%UP/防御力20%UP/[サブ]火属性キャラのHPが20%UP</string>
+				<key>img</key>
+				<string>6112.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ザ・サン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]火属性キャラの連続攻撃確率UP(ターン経過で効果UP)
+[サブ]火属性キャラが風属性の敵に対して与ダメージ10%UP</string>
+				<key>img</key>
+				<string>6116.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ザ・サン</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]火属性キャラの連続攻撃確率UP(ターン経過で効果UP)/[サブ]火属性キャラが風属性の敵に対して与ダメージ7%UP</string>
+				<key>img</key>
+				<string>6116.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>コロッサス・マグナ4凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「機炎方陣」の効果が120%UP</string>
+				<key>img</key>
+				<string>2040034000_02.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>コロッサス・マグナ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「機炎方陣」の効果が100%UP</string>
+				<key>img</key>
+				<string>2040034000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>コロッサス・マグナ</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「機炎方陣」の効果が50%UP</string>
+				<key>img</key>
+				<string>2040034000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>シヴァ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力が140%UP</string>
+				<key>img</key>
+				<string>2040185000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>シヴァ</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力が120%UP</string>
+				<key>img</key>
+				<string>2040185000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>アグニス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢火｣｢業火｣｢紅蓮｣｢赤星｣の効果が120%UP</string>
+				<key>img</key>
+				<string>2040094000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>アグニス</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢火｣｢業火｣｢紅蓮｣｢赤星｣の効果が80%UP</string>
+				<key>img</key>
+				<string>2040094000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>アグニス・ディヴィジョン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢火｣｢業火｣｢紅蓮｣｢赤星｣の効果が110%UP</string>
+				<key>img</key>
+				<string>2040269000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>アグニス・ディヴィジョン</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢火｣｢業火｣｢紅蓮｣｢赤星｣の効果が70%UP</string>
+				<key>img</key>
+				<string>2040269000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>プロメテウス4凸</key>
+			<dict>
+				<key>description</key>
+				<string>弱体耐性40%UP/火属性攻撃時にクリティカル確率UP(効果値UP)</string>
+				<key>img</key>
+				<string>2040125000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>プロメテウス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>弱体耐性40%UP/火属性攻撃時にクリティカル確率UP
+</string>
+				<key>img</key>
+				<string>2040125000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>プロメテウス</key>
+			<dict>
+				<key>description</key>
+				<string>弱体耐性30%UP/火属性攻撃時にクリティカル確率UP
+</string>
+				<key>img</key>
+				<string>2040125000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ンニ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力が40%UP
+防御力20%UP</string>
+				<key>img</key>
+				<string>2040224000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ンニ</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力が40%UP
+防御力10%UP</string>
+				<key>img</key>
+				<string>2040224000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>孤独の竜姫3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力40%UP/ダブルアタック確率UP</string>
+				<key>img</key>
+				<string>2040228000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>孤独の竜姫</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力40%UP/防御DOWN</string>
+				<key>img</key>
+				<string>2040228000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ベオウルフ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性キャラのHP25%UP
+稀に即死回避</string>
+				<key>img</key>
+				<string>2040021000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ベオウルフ</key>
+			<dict>
+				<key>description</key>
+				<string>火属性キャラのHP20%UP
+稀に即死回避</string>
+				<key>img</key>
+				<string>2040021000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>シルフ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性キャラの攻撃力と回復性能25%UP</string>
+				<key>img</key>
+				<string>2040048000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>シルフ</key>
+			<dict>
+				<key>description</key>
+				<string>火属性キャラの攻撃力と回復性能20%UP</string>
+				<key>img</key>
+				<string>2040048000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ゲルラ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力が40%UP
+ダブルアタック確率UP</string>
+				<key>img</key>
+				<string>2040178000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ゲルラ</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040178000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>フラム＝グラス4凸</key>
+			<dict>
+				<key>description</key>
+				<string>火と水属性キャラのHP60%UP/稀にカウンター効果/バトルメンバーの属性が2つ以上異なるとき火と水属性キャラの性能UP</string>
+				<key>img</key>
+				<string>2040063000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>フラム＝グラス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火と水属性キャラのHP60%UP
+稀にカウンター効果</string>
+				<key>img</key>
+				<string>2040063000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>フラム＝グラス</key>
+			<dict>
+				<key>description</key>
+				<string>火と水属性キャラのHP40%UP
+稀にカウンター効果</string>
+				<key>img</key>
+				<string>2040063000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>紅き穿光と黒き大鎌3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火と闇属性攻撃力が40%UP/火と闇属性キャラのHP15%UP</string>
+				<key>img</key>
+				<string>2040259000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>紅き穿光と黒き大鎌</key>
+			<dict>
+				<key>description</key>
+				<string>火と闇属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040259000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>エレン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火と風属性攻撃力が40%UP/火と風属性キャラのHP15%UP</string>
+				<key>img</key>
+				<string>2040255000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>エレン</key>
+			<dict>
+				<key>description</key>
+				<string>火と風属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040255000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>オクシモロン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火と水属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040076000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>オクシモロン</key>
+			<dict>
+				<key>description</key>
+				<string>火と水属性攻撃力が25%UP</string>
+				<key>img</key>
+				<string>2040076000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>セスランス4凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力が90%UP/経過ターンに応じてさらに火属性攻撃力UP(最大130%)/火属性キャラのHPが10%UP★初回召喚時は全効果が発動</string>
+				<key>img</key>
+				<string>2040171000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>セスランス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力が80%UP/経過ターンに応じてさらに火属性攻撃力UP(最大120%)</string>
+				<key>img</key>
+				<string>2040171000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>セスランス</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力が60%UP/経過ターンに応じてさらに火属性攻撃力UP(最大100%)
+毎ターン2%ずつ上昇</string>
+				<key>img</key>
+				<string>2040171000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>キャタピラさん3凸</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力50%UP</string>
+				<key>img</key>
+				<string>2040129000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>キャタピラさん</key>
+			<dict>
+				<key>description</key>
+				<string>火属性攻撃力50%UP
+味方全体の奥義ゲージ上昇量DOWN</string>
+				<key>img</key>
+				<string>2040129000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
 			<key>アテナ4凸</key>
 			<dict>
 				<key>description</key>
 				<string>火属性攻撃力が80%UP
 火属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040021000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -21,7 +411,7 @@
 				<key>description</key>
 				<string>火属性攻撃力80%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040021000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -30,7 +420,7 @@
 				<key>description</key>
 				<string>火属性攻撃力50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040021000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -39,7 +429,7 @@
 				<key>description</key>
 				<string>火属性攻撃力60%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040016000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -48,7 +438,7 @@
 				<key>description</key>
 				<string>火属性攻撃力50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040016000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -57,7 +447,7 @@
 				<key>description</key>
 				<string>火属性攻撃力40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040016000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -66,7 +456,7 @@
 				<key>description</key>
 				<string>火属性攻撃力50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040099000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -76,7 +466,7 @@
 				<string>火属性攻撃力50%UP
 防御DOWN</string>
 				<key>img</key>
-				<string></string>
+				<string>2040099000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -85,7 +475,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040008000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -94,7 +484,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040008000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -103,7 +493,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が50％UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040282000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -112,7 +502,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が40％UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040282000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -121,7 +511,7 @@
 				<key>description</key>
 				<string>装備している火属性召喚石の数が多いほど火属性攻撃力がUP(最大120%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040229000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -130,7 +520,7 @@
 				<key>description</key>
 				<string>装備している火属性召喚石の数が多いほど火属性攻撃力がUP(最大100%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040229000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -142,7 +532,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030029000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -151,7 +541,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030029000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -160,7 +550,7 @@
 				<key>description</key>
 				<string>火属性キャラのHPと攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030001000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -169,7 +559,7 @@
 				<key>description</key>
 				<string>火属性キャラのHPと攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030001000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -178,7 +568,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030009000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -187,7 +577,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030009000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -196,7 +586,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030013000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -205,16 +595,16 @@
 				<key>description</key>
 				<string>火属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030013000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
-			<key>たゆたう焔魂 - 2</key>
+			<key>たゆたう焔魂3凸</key>
 			<dict>
 				<key>description</key>
 				<string>火属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030018000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -223,7 +613,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030018000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -232,7 +622,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030006000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -241,7 +631,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030006000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -250,7 +640,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030022000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -259,7 +649,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030022000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -268,7 +658,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030073000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -277,7 +667,7 @@
 				<key>description</key>
 				<string>火属性キャラのHPが5%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030069000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -286,7 +676,7 @@
 				<key>description</key>
 				<string>火属性ダメージを軽減する</string>
 				<key>img</key>
-				<string></string>
+				<string>2030063000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -295,7 +685,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030029000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -304,7 +694,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030029000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -316,7 +706,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020005000</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -325,7 +715,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020005000</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -334,7 +724,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020007000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -343,7 +733,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020007000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -352,7 +742,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020012000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -361,7 +751,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020012000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -370,7 +760,7 @@
 				<key>description</key>
 				<string>火属性キャラのHPが15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020018000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -379,7 +769,7 @@
 				<key>description</key>
 				<string>火属性キャラのHPが10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020018000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -388,7 +778,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020025000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -397,7 +787,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020025000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -406,7 +796,7 @@
 				<key>description</key>
 				<string>火属性キャラのHPが15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020027000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -415,7 +805,7 @@
 				<key>description</key>
 				<string>火属性キャラのHPが10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020027000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -424,7 +814,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020031000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -433,7 +823,7 @@
 				<key>description</key>
 				<string>火属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020031000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -443,14 +833,629 @@
 	<dict>
 		<key>SSR</key>
 		<dict>
-			<key>New item</key>
+			<key>グガランナ3凸</key>
 			<dict>
 				<key>description</key>
-				<string></string>
+				<string>風属性チェインバーストの威力が150%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040026000</string>
 				<key>flag</key>
-				<string></string>
+				<string>1</string>
+			</dict>
+			<key>グガランナ</key>
+			<dict>
+				<key>description</key>
+				<string>風属性チェインバーストの威力が120%UP</string>
+				<key>img</key>
+				<string>2040026000</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ラファエル3凸</key>
+			<dict>
+				<key>description</key>
+				<string>メイン装備時：風属性攻撃力が120%UP
+サブ装備時：風属性キャラのダメージ上限10%UP</string>
+				<key>img</key>
+				<string>2040202000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ラファエル</key>
+			<dict>
+				<key>description</key>
+				<string>メイン装備時:風属性攻撃力が100%UP
+サブ装備時:風属性キャラのダメージ上限5%UP</string>
+				<key>img</key>
+				<string>2040202000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ティアマト・マグナ4凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「嵐竜方陣」の効果が120%UP</string>
+				<key>img</key>
+				<string>2040020000_02.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>ティアマト・マグナ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「嵐竜方陣」の効果が100%UP</string>
+				<key>img</key>
+				<string>2040020000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ティアマト・マグナ</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「嵐竜方陣」の効果が50%UP</string>
+				<key>img</key>
+				<string>2040020000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>グリームニル3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が140%UP</string>
+				<key>img</key>
+				<string>2040261000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>グリームニル</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が120%UP</string>
+				<key>img</key>
+				<string>2040261000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ゼピュロス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢風｣｢竜巻｣｢乱気｣｢緑星｣の効果が120%UP</string>
+				<key>img</key>
+				<string>2040098000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>ゼピュロス</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢風｣｢竜巻｣｢乱気｣｢緑星｣の効果が80%UP</string>
+				<key>img</key>
+				<string>2040098000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ゼピュロス・ディヴィジョン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢風｣｢竜巻｣｢乱気｣｢緑星｣の効果が110%UP</string>
+				<key>img</key>
+				<string>2040272000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ゼピュロス・ディヴィジョン</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢風｣｢竜巻｣｢乱気｣｢緑星｣の効果が70%UP</string>
+				<key>img</key>
+				<string>2040272000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>バイヴカハ4凸</key>
+			<dict>
+				<key>description</key>
+				<string>弱体効果耐性40%UP/風属性攻撃時にクリティカル確率UP(効果値UP)</string>
+				<key>img</key>
+				<string>2040122000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>バイヴカハ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>弱体効果耐性40%UP/風属性攻撃時にクリティカル確率UP</string>
+				<key>img</key>
+				<string>2040122000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>バイヴカハ</key>
+			<dict>
+				<key>description</key>
+				<string>弱体効果耐性30%UP/風属性攻撃時にクリティカル確率UP</string>
+				<key>img</key>
+				<string>2040122000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ジャッジメント3凸</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]風属性キャラの攻撃力110%UP/防御力10%UP/[サブ]風属性キャラが土属性の敵に対して与ダメージ10%UP</string>
+				<key>img</key>
+				<string>6117.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ジャッジメント</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]風属性キャラの攻撃力100%UP/防御力10%UP/[サブ]風属性キャラが土属性の敵に対して与ダメージ7%UP</string>
+				<key>img</key>
+				<string>6117.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>テンペランス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]パーティ全体のHPが50%に近いほど風属性キャラの攻撃力UP(最大で130%まで上昇)/[サブ]風属性キャラのHPが30%UP</string>
+				<key>img</key>
+				<string>6111.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>テンペランス</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]パーティ全体のHPが50%に近いほど風属性キャラの攻撃力UP(最大で120%まで上昇)/[サブ]風属性キャラのHPが20%UP</string>
+				<key>img</key>
+				<string>6111.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>アナト3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が80%UP</string>
+				<key>img</key>
+				<string>2040006000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>アナト</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が50%UP</string>
+				<key>img</key>
+				<string>2040006000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>サジタリウス4凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が60%UP</string>
+				<key>img</key>
+				<string>2040031000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>サジタリウス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が50%UP</string>
+				<key>img</key>
+				<string>2040031000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>サジタリウス</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040031000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ケツァルカトル3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風と土属性の攻撃力60%UP</string>
+				<key>img</key>
+				<string>2040009000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ケツァルカトル</key>
+			<dict>
+				<key>description</key>
+				<string>風と土属性の攻撃力40%UP</string>
+				<key>img</key>
+				<string>2040009000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ネフティス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が50%UP</string>
+				<key>img</key>
+				<string>2040011000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ネフティス</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040011000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>セイレーン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風と光属性攻撃力が60%UP</string>
+				<key>img</key>
+				<string>2040017000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>セイレーン</key>
+			<dict>
+				<key>description</key>
+				<string>風と光属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040017000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>フレイ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力60%UP/再生効果</string>
+				<key>img</key>
+				<string>2040281000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>フレイ</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力40%UP/再生効果</string>
+				<key>img</key>
+				<string>2040281000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ミスラ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性キャラの攻撃力と弱体成功率25%UP</string>
+				<key>img</key>
+				<string>2040039000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ミスラ</key>
+			<dict>
+				<key>description</key>
+				<string>風属性キャラの攻撃力と弱体成功率20%UP</string>
+				<key>img</key>
+				<string>2040039000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ナタク4凸</key>
+			<dict>
+				<key>description</key>
+				<string>風と火属性攻撃力が70%UP/風と火属性キャラのHPが25%UP</string>
+				<key>img</key>
+				<string>2040042000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>ナタク3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風と火属性攻撃力が60%UP</string>
+				<key>img</key>
+				<string>2040042000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ナタク</key>
+			<dict>
+				<key>description</key>
+				<string>風と火属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040042000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ジョヤ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が40%UP/防御力10%UP</string>
+				<key>img</key>
+				<string>2040115000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ジョヤ</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040115000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>風神・雷神3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風と光属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040055000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>風神・雷神</key>
+			<dict>
+				<key>description</key>
+				<string>風と光属性攻撃力が25%UP</string>
+				<key>img</key>
+				<string>2040055000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>リュミエール・グルメ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>全属性キャラの防御力が20%UP/リュミエール聖騎士団の力をお見せするであります！/※騎士団員の攻撃力60%UP</string>
+				<key>img</key>
+				<string>2040214000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>リュミエール・グルメ</key>
+			<dict>
+				<key>description</key>
+				<string>全属性キャラの防御力が10%UP/リュミエール聖騎士団の力をお見せするであります！/※騎士団員の攻撃力40%UP</string>
+				<key>img</key>
+				<string>2040214000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ガルーダ4凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性キャラの攻撃力が60%UP/HP40%UP/チェインバースト25%UP</string>
+				<key>img</key>
+				<string>2040071000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>ガルーダ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性キャラのHPと攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040071000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ガルーダ</key>
+			<dict>
+				<key>description</key>
+				<string>風属性キャラのHPと攻撃力が25%UP</string>
+				<key>img</key>
+				<string>2040071000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ディアドラ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力50%UP</string>
+				<key>img</key>
+				<string>2040095000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ディアドラ</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力50%UP
+奥義ゲージ上昇量(30%)DOWN</string>
+				<key>img</key>
+				<string>2040095000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>俊秀の義剣士3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃40%UP/奥義ダメージ10％UP</string>
+				<key>img</key>
+				<string>2040248000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>俊秀の義剣士</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃40%UP</string>
+				<key>img</key>
+				<string>2040248000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>クィーンビー3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃40%UP/(防衛戦では風属性キャラ攻撃60%UP/HP15%UP)</string>
+				<key>img</key>
+				<string>2040141000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>クィーンビー</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃40%UP/(防衛戦では風属性キャラ攻撃60%UP/HP15%UP)</string>
+				<key>img</key>
+				<string>2040141000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>トレント3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が40%UP/弱体耐性10%UP</string>
+				<key>img</key>
+				<string>2040172000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>トレント</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040172000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>セト4凸</key>
+			<dict>
+				<key>description</key>
+				<string>敵の数に応じて風属性攻撃力がUP(最大130%)/風属性キャラのHPが10%UP★初回召喚時は全ての召喚効果が発動</string>
+				<key>img</key>
+				<string>2040177000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>セト3凸</key>
+			<dict>
+				<key>description</key>
+				<string>敵の数に応じて風属性攻撃力がUP(最大120%)</string>
+				<key>img</key>
+				<string>2040177000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>セト</key>
+			<dict>
+				<key>description</key>
+				<string>敵の数に応じて風属性攻撃力がUP(最大100%)</string>
+				<key>img</key>
+				<string>2040177000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ドラゴンナイツ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>全属性キャラの防御力が20%UP</string>
+				<key>img</key>
+				<string>2040181000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ドラゴンナイツ</key>
+			<dict>
+				<key>description</key>
+				<string>全属性キャラの防御力が10%UP</string>
+				<key>img</key>
+				<string>2040181000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ブルーオービット3凸</key>
+			<dict>
+				<key>description</key>
+				<string>チェインバーストの威力が150%UP</string>
+				<key>img</key>
+				<string>2040184000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ブルーオービット</key>
+			<dict>
+				<key>description</key>
+				<string>チェインバーストの威力が100%UP</string>
+				<key>img</key>
+				<string>2040184000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ローズクィーン4凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が80%UP/回復性能10％UP</string>
+				<key>img</key>
+				<string>2040105000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>ローズクィーン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が80%UP</string>
+				<key>img</key>
+				<string>2040105000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ローズクィーン</key>
+			<dict>
+				<key>description</key>
+				<string>風属性攻撃力が50%UP</string>
+				<key>img</key>
+				<string>2040105000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>シャインホーク・ガルラ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>装備している風属性召喚石の数が多いほど風属性攻撃力がUP(最大120%)</string>
+				<key>img</key>
+				<string>2040221000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>シャインホーク・ガルラ</key>
+			<dict>
+				<key>description</key>
+				<string>装備している風属性召喚石の数が多いほど風属性攻撃力がUP(最大100%)</string>
+				<key>img</key>
+				<string>2040221000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>マモーナス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>風属性キャラのHPと攻撃力が25%UP</string>
+				<key>img</key>
+				<string>2040067000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>マモーナス</key>
+			<dict>
+				<key>description</key>
+				<string>風属性キャラのHPと攻撃力が20%UP</string>
+				<key>img</key>
+				<string>2040067000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
 			</dict>
 		</dict>
 		<key>SR</key>
@@ -460,7 +1465,7 @@
 				<key>description</key>
 				<string>風属性ダメージを20%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2030003000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -469,7 +1474,7 @@
 				<key>description</key>
 				<string>風属性ダメージを15%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2030003000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -478,7 +1483,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030007000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -487,7 +1492,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030007000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -496,7 +1501,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030020000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -505,7 +1510,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030020000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -514,7 +1519,7 @@
 				<key>description</key>
 				<string>レアモンスターの出現確率UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030051000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -523,7 +1528,7 @@
 				<key>description</key>
 				<string>レアモンスターの出現確率UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030051000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -532,7 +1537,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030033000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -541,7 +1546,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030033000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -550,7 +1555,7 @@
 				<key>description</key>
 				<string>風属性ダメージを軽減する</string>
 				<key>img</key>
-				<string></string>
+				<string>2030062000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -559,7 +1564,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030076000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -568,7 +1573,7 @@
 				<key>description</key>
 				<string>風属性キャラのHPが5%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030069000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -577,7 +1582,7 @@
 				<key>description</key>
 				<string>風属性キャラのHPと攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030000000</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -586,7 +1591,7 @@
 				<key>description</key>
 				<string>風属性キャラのHPと攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030000000</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -595,7 +1600,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030016000</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -604,7 +1609,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030016000</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -616,7 +1621,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020003000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -625,7 +1630,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020003000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -634,7 +1639,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020004000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -643,7 +1648,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020004000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -652,7 +1657,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020006000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -661,7 +1666,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020006000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -670,7 +1675,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020008000</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -679,7 +1684,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020008000</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -688,7 +1693,7 @@
 				<key>description</key>
 				<string>風属性ダメージを15%軽減	</string>
 				<key>img</key>
-				<string></string>
+				<string>2020010000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -697,7 +1702,7 @@
 				<key>description</key>
 				<string>風属性ダメージを10%軽減	</string>
 				<key>img</key>
-				<string></string>
+				<string>2020010000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -706,7 +1711,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020026000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -715,7 +1720,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020026000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -724,7 +1729,7 @@
 				<key>description</key>
 				<string>風属性キャラのHPが15%UP	</string>
 				<key>img</key>
-				<string></string>
+				<string>2020033000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -733,7 +1738,7 @@
 				<key>description</key>
 				<string>風属性キャラのHPが10%UP	</string>
 				<key>img</key>
-				<string></string>
+				<string>2020033000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -748,7 +1753,7 @@
 				<key>description</key>
 				<string>スキル「創樹方陣」の効果が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040027000_02.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -757,7 +1762,7 @@
 				<key>description</key>
 				<string>スキル「創樹方陣」の効果が100%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040027000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -766,7 +1771,7 @@
 				<key>description</key>
 				<string>スキル「創樹方陣」の効果が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040027000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -775,7 +1780,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が140%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040205000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -784,7 +1789,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040205000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -793,7 +1798,7 @@
 				<key>description</key>
 				<string>スキル｢土｣｢大地｣｢地裂｣｢黄星｣の効果が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040084000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -802,7 +1807,7 @@
 				<key>description</key>
 				<string>スキル｢土｣｢大地｣｢地裂｣｢黄星｣の効果が80%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040084000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -811,7 +1816,7 @@
 				<key>description</key>
 				<string>スキル｢土｣｢大地｣｢地裂｣｢黄星｣の効果が110%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040271000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -820,7 +1825,7 @@
 				<key>description</key>
 				<string>スキル｢土｣｢大地｣｢地裂｣｢黄星｣の効果が70%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040271000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -830,7 +1835,7 @@
 				<string>[メイン]土属性攻撃力が120%UP
 [サブ]土属性キャラのダメージ上限10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040203000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -840,7 +1845,7 @@
 				<string>[メイン]土属性攻撃力が100%UP
 [サブ]土属性キャラのダメージ上限5%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040203000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -849,7 +1854,7 @@
 				<key>description</key>
 				<string>弱体効果耐性40%UP/土属性攻撃時にクリティカル確率UP(効果値UP)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040130000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -858,7 +1863,7 @@
 				<key>description</key>
 				<string>弱体効果耐性40%UP/土属性攻撃時にクリティカル確率UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040130000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -867,7 +1872,7 @@
 				<key>description</key>
 				<string>弱体効果耐性30%UP/土属性攻撃時にクリティカル確率UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040130000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -876,7 +1881,7 @@
 				<key>description</key>
 				<string>[メイン]土属性キャラの攻撃力100%UP/防御力10%UP/[サブ]土属性キャラが水属性の敵に対して与ダメージ7%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6109.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -885,7 +1890,7 @@
 				<key>description</key>
 				<string>[メイン]土属性キャラの攻撃力100%UP/防御力10%UP/[サブ]土属性キャラが水属性の敵に対して与ダメージ7%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6109.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -894,7 +1899,7 @@
 				<key>description</key>
 				<string>[メイン]土属性攻撃力70%UP(ターン経過で110%まで上昇)/[サブ]土属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6113.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -903,7 +1908,7 @@
 				<key>description</key>
 				<string>[メイン]土属性攻撃力70%UP(ターン経過で110%まで上昇)/[サブ]土属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6113.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -912,7 +1917,7 @@
 				<key>description</key>
 				<string>装備している土属性召喚石の数が多いほど土属性攻撃力がUP(最大120%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040233000.jpg</string>
 				<key>flag</key>
 				<string></string>
 			</dict>
@@ -921,7 +1926,7 @@
 				<key>description</key>
 				<string>装備している土属性召喚石の数が多いほど土属性攻撃力がUP(最大100%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040233000.jpg</string>
 				<key>flag</key>
 				<string></string>
 			</dict>
@@ -930,7 +1935,7 @@
 				<key>description</key>
 				<string>土と光属性攻撃力が70%UP/土と光属性キャラのHPが25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040013000.jpg</string>
 				<key>flag</key>
 				<string></string>
 			</dict>
@@ -939,7 +1944,7 @@
 				<key>description</key>
 				<string>土と光属性攻撃力が60%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040013000.jpg</string>
 				<key>flag</key>
 				<string></string>
 			</dict>
@@ -948,7 +1953,7 @@
 				<key>description</key>
 				<string>土と光属性攻撃力が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040013000.jpg</string>
 				<key>flag</key>
 				<string></string>
 			</dict>
@@ -957,7 +1962,7 @@
 				<key>description</key>
 				<string>バトルメンバーの種族数に応じて土属性攻撃力がUP(最大130％)/土属性キャラの防御力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040173000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -966,7 +1971,7 @@
 				<key>description</key>
 				<string>バトルメンバーの種族数に応じて土属性攻撃力がUP(最大120%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040173000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -975,7 +1980,7 @@
 				<key>description</key>
 				<string>バトルメンバーの種族数に応じて土属性攻撃力がUP(最大100%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040173000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -984,7 +1989,7 @@
 				<key>description</key>
 				<string>土属性攻撃力50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040097000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -994,16 +1999,7 @@
 				<string>土属性攻撃力50%UP
 弱体耐性DOWN</string>
 				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>0</string>
-			</dict>
-			<key>ミドガルズオルム - 2</key>
-			<dict>
-				<key>description</key>
-				<string>土属性キャラのHPと攻撃力が20%UP</string>
-				<key>img</key>
-				<string></string>
+				<string>2040097000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1012,7 +2008,7 @@
 				<key>description</key>
 				<string>土属性キャラのHPと攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040018000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1021,7 +2017,7 @@
 				<key>description</key>
 				<string>土属性キャラのHPと攻撃力が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040018000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1031,7 +2027,7 @@
 				<string>土属性キャラの攻撃力が40%UP
 土属性キャラのHPが15%DOWN</string>
 				<key>img</key>
-				<string></string>
+				<string>2040168000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1041,7 +2037,7 @@
 				<string>土属性キャラの攻撃力が40%UP
 土属性キャラのHPが5%DOWN</string>
 				<key>img</key>
-				<string></string>
+				<string>2040168000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1050,7 +2046,7 @@
 				<key>description</key>
 				<string>全属性キャラのHPが20%UP/全属性キャラの防御力15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040058000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1059,7 +2055,7 @@
 				<key>description</key>
 				<string>全属性キャラのHPが15%UP/全属性キャラの防御力10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040058000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1069,7 +2065,7 @@
 				<string>土属性キャラの攻撃力40%UP
 暗闇無効</string>
 				<key>img</key>
-				<string></string>
+				<string>2040219000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1079,7 +2075,7 @@
 				<string>土属性キャラの攻撃力30%UP
 暗闇無効</string>
 				<key>img</key>
-				<string></string>
+				<string>2040219000.jpg</string>
 				<key>0</key>
 				<string>0</string>
 			</dict>
@@ -1089,7 +2085,7 @@
 				<string>土属性攻撃力が80%UP
 土属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040059000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1098,7 +2094,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が80%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040059000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1107,7 +2103,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040059000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1116,7 +2112,7 @@
 				<key>description</key>
 				<string>全属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040073000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1125,7 +2121,7 @@
 				<key>description</key>
 				<string>全属性キャラのHPが15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040073000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1134,7 +2130,7 @@
 				<key>description</key>
 				<string>土属性キャラに背水の効果/稀に即死回避(最大HP30%以上)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040035000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1143,7 +2139,7 @@
 				<key>description</key>
 				<string>土属性キャラに背水の効果/稀に即死回避(最大HP30%以上)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040035000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1152,7 +2148,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が60%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040014000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1161,7 +2157,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040014000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1170,7 +2166,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040014000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1179,7 +2175,7 @@
 				<key>description</key>
 				<string>土属性キャラ攻撃50%UP/味方全体の奥義ゲージ上昇＋</string>
 				<key>img</key>
-				<string></string>
+				<string>2040043000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1188,7 +2184,7 @@
 				<key>description</key>
 				<string>土属性キャラ攻撃25%UP/味方全体の奥義ゲージ上昇＋</string>
 				<key>img</key>
-				<string></string>
+				<string>2040043000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1197,7 +2193,7 @@
 				<key>description</key>
 				<string>土属性キャラ攻撃20%UP/味方全体の奥義ゲージ上昇＋</string>
 				<key>img</key>
-				<string></string>
+				<string>2040043000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1206,7 +2202,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が60%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040285000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1215,7 +2211,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040285000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1224,7 +2220,7 @@
 				<key>description</key>
 				<string>土属性キャラの攻撃力が60%UP/HP20%UP/土属性キャラに再生効果/弱体効果1ターン短縮</string>
 				<key>img</key>
-				<string></string>
+				<string>2040036000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1234,7 +2230,7 @@
 				<string>土属性キャラの攻撃力が40%UP
 土属性キャラに再生効果</string>
 				<key>img</key>
-				<string></string>
+				<string>2040036000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1244,7 +2240,7 @@
 				<string>土属性キャラの攻撃力が30%UP/
 土属性キャラに再生効果</string>
 				<key>img</key>
-				<string></string>
+				<string>2040036000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1254,7 +2250,7 @@
 				<string>土属性キャラの攻撃力40%UP
 弱体効果1ターン短縮</string>
 				<key>img</key>
-				<string></string>
+				<string>2040072000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1264,7 +2260,7 @@
 				<string>土属性キャラの攻撃力30%UP
 弱体効果1ターン短縮</string>
 				<key>img</key>
-				<string></string>
+				<string>2040072000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1276,7 +2272,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030024000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1285,7 +2281,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030024000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1294,7 +2290,7 @@
 				<key>description</key>
 				<string>土属性キャラのHPと攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030015000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1303,7 +2299,7 @@
 				<key>description</key>
 				<string>土属性キャラのHPと攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030015000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1312,7 +2308,7 @@
 				<key>description</key>
 				<string>土属性キャラのHPが40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030080000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1321,7 +2317,7 @@
 				<key>description</key>
 				<string>土属性キャラのHPが25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030080000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1330,7 +2326,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030075000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1339,7 +2335,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030025000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1348,7 +2344,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030025000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1357,7 +2353,7 @@
 				<key>description</key>
 				<string>土属性ダメージを20%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2030023000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1366,16 +2362,16 @@
 				<key>description</key>
 				<string>土属性ダメージを15%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2030023000.jpg</string>
 				<key>flag</key>
-				<string></string>
+				<string>0</string>
 			</dict>
 			<key>[創樹]ユグドラシル</key>
 			<dict>
 				<key>description</key>
 				<string>土属性ダメージを軽減する</string>
 				<key>img</key>
-				<string></string>
+				<string>2030065000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1384,7 +2380,7 @@
 				<key>description</key>
 				<string>回復アビリティ効果30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030008000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1393,7 +2389,7 @@
 				<key>description</key>
 				<string>回復アビリティ効果25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030008000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1403,7 +2399,7 @@
 				<string>土属性キャラが稀に即死回避
 (最大HP25%以上)</string>
 				<key>img</key>
-				<string></string>
+				<string>2030005000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1413,7 +2409,7 @@
 				<string>土属性キャラが稀に即死回避
 (最大HP30%以上)</string>
 				<key>img</key>
-				<string></string>
+				<string>2030005000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1422,7 +2418,7 @@
 				<key>description</key>
 				<string>土属性キャラのHPが5%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030072000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1431,7 +2427,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030010000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1440,7 +2436,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030010000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1452,7 +2448,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020013000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1461,7 +2457,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020013000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1470,7 +2466,7 @@
 				<key>description</key>
 				<string>土属性ダメージを15%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2020014000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1479,7 +2475,7 @@
 				<key>description</key>
 				<string>土属性ダメージを10%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2020014000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1488,7 +2484,7 @@
 				<key>description</key>
 				<string>土属性キャラのHPが15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020020000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1497,7 +2493,7 @@
 				<key>description</key>
 				<string>土属性キャラのHPが10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020020000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1506,7 +2502,7 @@
 				<key>description</key>
 				<string>土属性ダメージを15%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2020024000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1515,7 +2511,7 @@
 				<key>description</key>
 				<string>土属性ダメージを10%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2020024000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1524,7 +2520,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020030000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1533,7 +2529,7 @@
 				<key>description</key>
 				<string>土属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020030000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1542,7 +2538,7 @@
 				<key>description</key>
 				<string>土属性ダメージを15%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2020035000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1551,7 +2547,7 @@
 				<key>description</key>
 				<string>土属性ダメージを10%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2020035000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1560,7 +2556,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020002000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1569,7 +2565,7 @@
 				<key>description</key>
 				<string>風属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020002000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1584,7 +2580,7 @@
 				<key>description</key>
 				<string>スキル「海神方陣」の効果が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040028000_02.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1593,7 +2589,7 @@
 				<key>description</key>
 				<string>スキル「海神方陣」の効果が100%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040028000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1602,7 +2598,7 @@
 				<key>description</key>
 				<string>スキル「海神方陣」の効果が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040028000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1611,7 +2607,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が140%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040225000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1620,7 +2616,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040225000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1629,7 +2625,7 @@
 				<key>description</key>
 				<string>スキル｢水｣｢渦潮｣｢霧氷｣｢青星｣の効果が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040100000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1638,7 +2634,7 @@
 				<key>description</key>
 				<string>スキル｢水｣｢渦潮｣｢霧氷｣｢青星｣の効果が80%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040100000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1647,7 +2643,7 @@
 				<key>description</key>
 				<string>スキル｢水｣｢渦潮｣｢霧氷｣｢青星｣の効果が110%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040270000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1656,7 +2652,7 @@
 				<key>description</key>
 				<string>スキル｢水｣｢渦潮｣｢霧氷｣｢青星｣の効果が70%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040270000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1665,7 +2661,7 @@
 				<key>description</key>
 				<string>[メイン]水属性攻撃力70%UP(ターン経過で110%まで上昇)/[サブ]水属性キャラが火属性の敵に対して与ダメージ7%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6115.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1674,7 +2670,7 @@
 				<key>description</key>
 				<string>[メイン]水属性攻撃力70%UP(ターン経過で110%まで上昇)/[サブ]水属性キャラが火属性の敵に対して与ダメージ7%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6115.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1683,7 +2679,7 @@
 				<key>description</key>
 				<string>[メイン]水属性キャラの攻撃力100%UP/防御力10%UP/[サブ]水属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6108.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1692,7 +2688,7 @@
 				<key>description</key>
 				<string>[メイン]水属性キャラの攻撃力100%UP/防御力10%UP/[サブ]水属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6108.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1701,7 +2697,7 @@
 				<key>description</key>
 				<string>装備している水属性召喚石の数が多いほど水属性攻撃力がUP(最大130%)/水属性キャラの防御が10%UP ★初回召喚時は全効果が発動</string>
 				<key>img</key>
-				<string></string>
+				<string>2040167000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1710,7 +2706,7 @@
 				<key>description</key>
 				<string>装備している水属性召喚石の数が多いほど水属性攻撃力がUP(最大120%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040167000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1719,7 +2715,7 @@
 				<key>description</key>
 				<string>装備している水属性召喚石の数が多いほど水属性攻撃力がUP(最大100%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040167000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1730,7 +2726,7 @@
 パーティ全体のHPが少ないほどダブルアタック確率UP
 アイテムドロップ率が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040114000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1741,7 +2737,7 @@
 パーティ全体のHPが少ないほどダブルアタック確率UP
 アイテムドロップ率が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040114000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1750,7 +2746,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が40%UP/防御力10%UP/バトル開始時に水属性キャラの奥義ゲージ10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040175000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1759,7 +2755,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040175000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1769,7 +2765,7 @@
 				<string>水属性キャラの攻撃力が40%UP
 水属性キャラのHPが15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040142000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1779,7 +2775,7 @@
 				<string>水属性キャラの攻撃力が40%UP
 水属性キャラのHPが5%DOWN</string>
 				<key>img</key>
-				<string></string>
+				<string>2040142000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1788,7 +2784,7 @@
 				<key>description</key>
 				<string>水属性攻撃力60%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040010000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1797,7 +2793,7 @@
 				<key>description</key>
 				<string>水属性攻撃力50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040010000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1806,7 +2802,7 @@
 				<key>description</key>
 				<string>水属性攻撃力40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040010000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1815,7 +2811,7 @@
 				<key>description</key>
 				<string>水属性攻撃力50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040113000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1825,7 +2821,7 @@
 				<string>水属性攻撃力50%UP
 防御DOWN</string>
 				<key>img</key>
-				<string></string>
+				<string>2040113000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1834,7 +2830,7 @@
 				<key>description</key>
 				<string>水属性攻撃60%UP(防衛戦では水属性キャラ攻撃100%UP/HP30%UP)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040109000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1843,7 +2839,7 @@
 				<key>description</key>
 				<string>水属性攻撃40%UP(防衛戦では水属性キャラ攻撃60%UP/HP15%UP)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040109000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1852,7 +2848,7 @@
 				<key>description</key>
 				<string>チェインバーストのダメージが200%/チェインバーストのダメージ上限がUP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040007000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1861,7 +2857,7 @@
 				<key>description</key>
 				<string>チェインバーストのダメージが180%</string>
 				<key>img</key>
-				<string></string>
+				<string>2040007000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1870,7 +2866,7 @@
 				<key>description</key>
 				<string>チェインバーストのダメージが150%</string>
 				<key>img</key>
-				<string></string>
+				<string>2040007000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1880,7 +2876,7 @@
 				<string>水属性キャラのHP40%UP
 弱体効果1ターン短縮</string>
 				<key>img</key>
-				<string></string>
+				<string>2040060000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1890,7 +2886,7 @@
 				<string>水属性キャラのHP30%UP
 弱体効果1ターン短縮</string>
 				<key>img</key>
-				<string></string>
+				<string>2040060000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1900,7 +2896,7 @@
 				<string>水属性キャラの攻撃力40%UP
 回復性能25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040037000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1910,7 +2906,7 @@
 				<string>水属性キャラの攻撃力25%UP
 回復性能25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040037000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1920,7 +2916,7 @@
 				<string>水属性キャラの攻撃力20%UP
 回復性能20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040037000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1929,7 +2925,7 @@
 				<key>description</key>
 				<string>水属性キャラ攻撃40%UP/味方全体の奥義ゲージ上昇(20%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040049000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -1938,7 +2934,7 @@
 				<key>description</key>
 				<string>水属性キャラ攻撃25%UP/味方全体の奥義ゲージ上昇(20%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040049000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1947,7 +2943,7 @@
 				<key>description</key>
 				<string>水属性キャラ攻撃20%UP/味方全体の奥義ゲージ上昇(10%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040049000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1956,7 +2952,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040085000</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1966,7 +2962,7 @@
 				<string>水属性攻撃力が50%UP
 ダブルアタック確率DOWN</string>
 				<key>img</key>
-				<string></string>
+				<string>2040085000</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1975,7 +2971,7 @@
 				<key>description</key>
 				<string>属性キャラのHPと攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040014000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -1984,7 +2980,7 @@
 				<key>description</key>
 				<string>属性キャラのHPと攻撃力が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040014000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -1994,7 +2990,7 @@
 				<string>水属性攻撃力が80%UP
 水属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040002000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -2003,7 +2999,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が80%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040002000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2012,7 +3008,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040002000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2021,7 +3017,7 @@
 				<key>description</key>
 				<string>水と光属性攻撃力が60%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040033000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2030,7 +3026,7 @@
 				<key>description</key>
 				<string>水と光属性攻撃力が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040033000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2039,7 +3035,7 @@
 				<key>description</key>
 				<string>水属性チェインバーストの威力が150%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040045000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2048,7 +3044,7 @@
 				<key>description</key>
 				<string>水属性チェインバーストの威力が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040045000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2057,7 +3053,7 @@
 				<key>description</key>
 				<string>火と水属性攻撃力が40%UP	</string>
 				<key>img</key>
-				<string></string>
+				<string>2040248000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2066,7 +3062,7 @@
 				<key>description</key>
 				<string>火と水属性攻撃力が25%UP	</string>
 				<key>img</key>
-				<string></string>
+				<string>2040248000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2076,7 +3072,7 @@
 				<string>水属性キャラの攻撃力が40%UP
 水属性キャラに再生効果</string>
 				<key>img</key>
-				<string></string>
+				<string>2040069000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2086,7 +3082,7 @@
 				<string>水属性キャラの攻撃力が30%UP
 水属性キャラに再生効果</string>
 				<key>img</key>
-				<string></string>
+				<string>2040069000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2095,7 +3091,7 @@
 				<key>description</key>
 				<string>バトルメンバーの種族数に応じて水属性攻撃力がUP(最大120％)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040248000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2104,7 +3100,7 @@
 				<key>description</key>
 				<string>バトルメンバーの種族数に応じて水属性攻撃力がUP(最大100％)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040248000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2116,7 +3112,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030021000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2125,7 +3121,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030021000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2134,7 +3130,7 @@
 				<key>description</key>
 				<string>水属性キャラのHPと攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030011000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2143,7 +3139,7 @@
 				<key>description</key>
 				<string>水属性キャラのHPと攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030011000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2152,7 +3148,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030040000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2161,7 +3157,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030040000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2170,7 +3166,7 @@
 				<key>description</key>
 				<string>水属性キャラのHPが5%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030068000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2179,7 +3175,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030019000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2188,7 +3184,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030019000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2197,7 +3193,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030034000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2206,7 +3202,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030034000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2215,7 +3211,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030073000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2224,109 +3220,19 @@
 				<key>description</key>
 				<string>水属性ダメージを軽減する</string>
 				<key>img</key>
-				<string></string>
+				<string>2030064000.jpgv</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
 		</dict>
 		<key>R</key>
 		<dict>
-			<key>ランページシェル3凸</key>
-			<dict>
-				<key>description</key>
-				<string>水属性ダメージを15%軽減</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>1</string>
-			</dict>
-			<key>ランページシェル</key>
-			<dict>
-				<key>description</key>
-				<string>水属性ダメージを10%軽減</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>0</string>
-			</dict>
-			<key>ジェリー3凸</key>
-			<dict>
-				<key>description</key>
-				<string>水属性攻撃力が15%UP</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>1</string>
-			</dict>
-			<key>ジェリー</key>
-			<dict>
-				<key>description</key>
-				<string>水属性攻撃力が10%UP</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>0</string>
-			</dict>
-			<key>マイトフィッシュ3凸</key>
-			<dict>
-				<key>description</key>
-				<string>水属性攻撃力が15%UP</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>1</string>
-			</dict>
-			<key>マイトフィッシュ</key>
-			<dict>
-				<key>description</key>
-				<string>水属性攻撃力が10%UP</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>0</string>
-			</dict>
-			<key>剣鮫3凸</key>
-			<dict>
-				<key>description</key>
-				<string>水属性攻撃力が15%UP</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>1</string>
-			</dict>
-			<key>剣鮫</key>
-			<dict>
-				<key>description</key>
-				<string>水属性攻撃力が10%UP</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>0</string>
-			</dict>
-			<key>水のエレメンタル3凸</key>
-			<dict>
-				<key>description</key>
-				<string>水属性キャラのHPが15%UP	</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>1</string>
-			</dict>
-			<key>水のエレメンタル</key>
-			<dict>
-				<key>description</key>
-				<string>水属性キャラのHPが10%UP	</string>
-				<key>img</key>
-				<string></string>
-				<key>flag</key>
-				<string>0</string>
-			</dict>
 			<key>ウラザナ3凸</key>
 			<dict>
 				<key>description</key>
 				<string>水属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020023000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2335,7 +3241,25 @@
 				<key>description</key>
 				<string>水属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020023000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ジェリー3凸</key>
+			<dict>
+				<key>description</key>
+				<string>水属性攻撃力が15%UP</string>
+				<key>img</key>
+				<string>2020015000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ジェリー</key>
+			<dict>
+				<key>description</key>
+				<string>水属性攻撃力が10%UP</string>
+				<key>img</key>
+				<string>2020015000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2344,7 +3268,7 @@
 				<key>description</key>
 				<string>水属性キャラのHPが15%UP	</string>
 				<key>img</key>
-				<string></string>
+				<string>2020028000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2353,7 +3277,79 @@
 				<key>description</key>
 				<string>水属性キャラのHPが10%UP	</string>
 				<key>img</key>
-				<string></string>
+				<string>2020028000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>マイトフィッシュ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>水属性攻撃力が15%UP</string>
+				<key>img</key>
+				<string>2020016000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>マイトフィッシュ</key>
+			<dict>
+				<key>description</key>
+				<string>水属性攻撃力が10%UP</string>
+				<key>img</key>
+				<string>2020016000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ランページシェル3凸</key>
+			<dict>
+				<key>description</key>
+				<string>水属性ダメージを15%軽減</string>
+				<key>img</key>
+				<string>2020011000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ランページシェル</key>
+			<dict>
+				<key>description</key>
+				<string>水属性ダメージを10%軽減</string>
+				<key>img</key>
+				<string>2020011000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>剣鮫3凸</key>
+			<dict>
+				<key>description</key>
+				<string>水属性攻撃力が15%UP</string>
+				<key>img</key>
+				<string>2020017000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>剣鮫</key>
+			<dict>
+				<key>description</key>
+				<string>水属性攻撃力が10%UP</string>
+				<key>img</key>
+				<string>2020017000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>水のエレメンタル3凸</key>
+			<dict>
+				<key>description</key>
+				<string>水属性キャラのHPが15%UP	</string>
+				<key>img</key>
+				<string>2020019000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>水のエレメンタル</key>
+			<dict>
+				<key>description</key>
+				<string>水属性キャラのHPが10%UP	</string>
+				<key>img</key>
+				<string>2020019000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2362,7 +3358,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020032000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2371,7 +3367,7 @@
 				<key>description</key>
 				<string>水属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020032000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2381,12 +3377,22 @@
 	<dict>
 		<key>SSR</key>
 		<dict>
+			<key>ノビヨ</key>
+			<dict>
+				<key>description</key>
+				<string>全属性キャラのHPと攻撃力が20%UP
+アイテムドロップ率と獲得経験値が10%UP</string>
+				<key>img</key>
+				<string>2040290000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
 			<key>シュヴァリエ・マグナ4凸</key>
 			<dict>
 				<key>description</key>
 				<string>スキル「騎解方陣」の効果が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040047000_02.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -2395,7 +3401,7 @@
 				<key>description</key>
 				<string>スキル「騎解方陣」の効果が100%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040047000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2404,7 +3410,7 @@
 				<key>description</key>
 				<string>スキル「騎解方陣」の効果が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040047000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2413,7 +3419,7 @@
 				<key>description</key>
 				<string>光属性攻撃力が130%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040056000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -2422,7 +3428,7 @@
 				<key>description</key>
 				<string>光属性攻撃力が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040056000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2431,7 +3437,7 @@
 				<key>description</key>
 				<string>光属性攻撃力が100%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040056000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2440,7 +3446,7 @@
 				<key>description</key>
 				<string>スキル｢光｣｢雷電｣｢天光｣｢白星｣の効果が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040080000</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2449,7 +3455,7 @@
 				<key>description</key>
 				<string>スキル｢光｣｢雷電｣｢天光｣｢白星｣の効果が80%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040080000</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2458,7 +3464,7 @@
 				<key>description</key>
 				<string>スキル｢光｣｢雷電｣｢天光｣｢白星｣の効果が110%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040273000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2467,7 +3473,7 @@
 				<key>description</key>
 				<string>スキル｢光｣｢雷電｣｢天光｣｢白星｣の効果が70%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040273000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2476,7 +3482,7 @@
 				<key>description</key>
 				<string>[メイン]光属性キャラの連続攻撃確率UP(ターン経過で効果UP)/[サブ]光属性キャラが闇属性の敵に対して与ダメージ7%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6114.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2485,7 +3491,7 @@
 				<key>description</key>
 				<string>[メイン]光属性キャラの連続攻撃確率UP(ターン経過で効果UP)/[サブ]光属性キャラが闇属性の敵に対して与ダメージ7%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>6114.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2495,7 +3501,7 @@
 				<string>[メイン]全属性攻撃力が40%UP/ダブルアタック確率30%UP
 [サブ]ダブルアタック確率10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040275000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2505,7 +3511,7 @@
 				<string>[メイン]全属性攻撃力が30%UP/ダブルアタック確率20%UP
 [サブ]ダブルアタック確率5%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040275000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2514,7 +3520,7 @@
 				<key>description</key>
 				<string>弱体耐性40%UP/光属性攻撃時にクリティカル確率UP(効果値UP)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040144000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -2524,7 +3530,7 @@
 				<string>弱体耐性40%UP
 光属性攻撃時にクリティカル確率UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040144000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2534,7 +3540,7 @@
 				<string>弱体耐性30%UP
 光属性攻撃時にクリティカル確率UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040144000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2544,7 +3550,7 @@
 				<string>バトルメンバーの属性が3つ以上異なるとき
 攻撃力200%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040065000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2554,7 +3560,7 @@
 				<string>バトルメンバーの属性が3つ以上異なるとき
 攻撃力100%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040065000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2563,7 +3569,7 @@
 				<key>description</key>
 				<string>装備している光属性召喚石の数が多いほど光属性攻撃力がUP(最大100％)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040253000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2572,7 +3578,7 @@
 				<key>description</key>
 				<string>装備している光属性召喚石の数が多いほど光属性攻撃力がUP(最大80％)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040253000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2581,7 +3587,7 @@
 				<key>description</key>
 				<string>光と闇属性攻撃75%・HP15%UP/バトルメンバーに光と闇の2属性がいるとさらに性能UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040029000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -2590,7 +3596,7 @@
 				<key>description</key>
 				<string>光と闇属性攻撃力が75%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040029000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2599,7 +3605,7 @@
 				<key>description</key>
 				<string>光と闇属性攻撃力が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040029000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2608,7 +3614,7 @@
 				<key>description</key>
 				<string>獲得経験値が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040025000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2617,7 +3623,7 @@
 				<key>description</key>
 				<string>獲得経験値が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040025000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2627,7 +3633,7 @@
 				<string>光属性攻撃力が80%UP
 光属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040023000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -2636,7 +3642,7 @@
 				<key>description</key>
 				<string>光属性攻撃力が80%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040023000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2645,7 +3651,7 @@
 				<key>description</key>
 				<string>光属性攻撃力が50%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040023000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2655,7 +3661,7 @@
 				<string>光属性キャラのHP25%UP
 稀に即死回避(最大HP30%以上)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040050000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2665,7 +3671,7 @@
 				<string>光属性キャラのHP20%UP
 稀に即死回避(最大HP30%以上)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040050000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2674,7 +3680,7 @@
 				<key>description</key>
 				<string>光属性キャラのHPと攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040030000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2683,7 +3689,7 @@
 				<key>description</key>
 				<string>光属性キャラのHPと攻撃力が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040030000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2692,7 +3698,7 @@
 				<key>description</key>
 				<string>光属性キャラ攻撃30%UP/味方全体の奥義ゲージ上昇+</string>
 				<key>img</key>
-				<string></string>
+				<string>2040064000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2701,7 +3707,7 @@
 				<key>description</key>
 				<string>光属性キャラ攻撃25%UP/味方全体の奥義ゲージ上昇+</string>
 				<key>img</key>
-				<string></string>
+				<string>2040064000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2710,7 +3716,7 @@
 				<key>description</key>
 				<string>光属性攻撃力が50％UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040081000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2719,7 +3725,7 @@
 				<key>description</key>
 				<string>光属性攻撃力が40％UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040081000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2728,7 +3734,7 @@
 				<key>description</key>
 				<string>全属性キャラの攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040234000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2737,7 +3743,7 @@
 				<key>description</key>
 				<string>全属性キャラの攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040234000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2746,7 +3752,7 @@
 				<key>description</key>
 				<string>バトルメンバーの種族数に応じて光属性攻撃力がUP(最大110%/光属性キャラの防御力が10%UP/自分に神愛の試練効果)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040216000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -2755,7 +3761,7 @@
 				<key>description</key>
 				<string>バトルメンバーの種族数に応じて光属性攻撃力がUP(最大100%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040216000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2764,7 +3770,7 @@
 				<key>description</key>
 				<string>バトルメンバーの種族数に応じて光属性攻撃力がUP(最大80%)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040216000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2774,7 +3780,7 @@
 				<string>[メイン]光属性攻撃力が70%UP
 [サブ]光属性キャラのHPが10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040195000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2784,7 +3790,7 @@
 				<string>[メイン]光属性攻撃力が50%UP
 [サブ]光属性キャラのHPが5%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040195000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2793,7 +3799,7 @@
 				<key>description</key>
 				<string>全属性キャラに再生効果(再生量150)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040096000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2802,7 +3808,7 @@
 				<key>description</key>
 				<string>全属性キャラに再生効果(再生量100)</string>
 				<key>img</key>
-				<string></string>
+				<string>2040096000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2811,7 +3817,7 @@
 				<key>description</key>
 				<string>全属性キャラのHPが10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040124000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2820,7 +3826,7 @@
 				<key>description</key>
 				<string>光属性攻撃50%UP/光属性キャラの奥義ダメージ15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040279000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2829,7 +3835,7 @@
 				<key>description</key>
 				<string>光属性攻撃40%UP/光属性キャラの奥義ダメージ10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040279000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2840,7 +3846,7 @@
 防御DOWN
 防御DOWN消去</string>
 				<key>img</key>
-				<string></string>
+				<string>2040133000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2850,7 +3856,7 @@
 				<string>光属性攻撃力が50%UP
 防御DOWN</string>
 				<key>img</key>
-				<string></string>
+				<string>2040133000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2859,7 +3865,7 @@
 				<key>description</key>
 				<string>全属性攻撃力50%UP/戦闘開始時にパーティの奥義ゲージ30%UP/奥義ダメージ30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040157000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2868,7 +3874,7 @@
 				<key>description</key>
 				<string>全属性攻撃力40%UP/戦闘開始時にパーティの奥義ゲージ20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040157000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2878,7 +3884,7 @@
 				<string>光属性攻撃力40%UP
 闇属性ダメージを10%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2040159000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2887,7 +3893,7 @@
 				<key>description</key>
 				<string>光属性攻撃力40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040159000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2897,7 +3903,7 @@
 				<string>光属性キャラ：攻撃80%・奥義性能UP
 火属性キャラ：攻撃60%・HP30%UP/風属性ダメージ軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2040004000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -2908,7 +3914,7 @@
 光属性キャラ：攻撃80%・奥義性能UP
 火属性キャラ：攻撃60%・HP30%UP/風属性ダメージ軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2040004000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2917,7 +3923,7 @@
 				<key>description</key>
 				<string>光と火属性攻撃力が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040004000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2926,7 +3932,7 @@
 				<key>description</key>
 				<string>光属性キャラの攻撃力が40%UP/光属性攻撃で弱点を突いた時、稀に大ダメージのクリティカルが発生</string>
 				<key>img</key>
-				<string></string>
+				<string>2040188000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2935,7 +3941,7 @@
 				<key>description</key>
 				<string>光属性キャラの攻撃力が30%UP/光属性攻撃で弱点を突いた時、稀に大ダメージのクリティカルが発生</string>
 				<key>img</key>
-				<string></string>
+				<string>2040188000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2944,7 +3950,7 @@
 				<key>description</key>
 				<string>光属性キャラ攻撃50%UP/HP20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040044000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -2953,7 +3959,7 @@
 				<key>description</key>
 				<string>光属性キャラ攻撃40%UP/HP15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040044000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2962,7 +3968,7 @@
 				<key>description</key>
 				<string>光属性キャラ攻撃30%UP/HP10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040044000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2971,7 +3977,7 @@
 				<key>description</key>
 				<string>全属性キャラの防御力が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040189000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2980,7 +3986,7 @@
 				<key>description</key>
 				<string>全属性キャラの防御力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040189000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -2989,7 +3995,7 @@
 				<key>description</key>
 				<string>光属性キャラのHPが30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040192000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -2998,7 +4004,7 @@
 				<key>description</key>
 				<string>光属性キャラのHPが20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040192000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3008,7 +4014,7 @@
 				<string>光属性攻撃力40%UP/防御DOWN
 防御DOWN消去/ダブルアタック確率UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040091000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3017,7 +4023,7 @@
 				<key>description</key>
 				<string>光属性攻撃力40%UP/防御DOWN</string>
 				<key>img</key>
-				<string></string>
+				<string>2040091000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3026,7 +4032,7 @@
 				<key>description</key>
 				<string>光属性ダメージを20%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2040199000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3035,7 +4041,7 @@
 				<key>description</key>
 				<string>光属性ダメージを15%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2040199000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3047,7 +4053,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030042000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3056,7 +4062,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030042000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3065,7 +4071,7 @@
 				<key>description</key>
 				<string>光属性キャラのHPと攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030032000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3074,7 +4080,7 @@
 				<key>description</key>
 				<string>光属性キャラのHPと攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030032000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3083,7 +4089,7 @@
 				<key>description</key>
 				<string>光属性ダメージを軽減する</string>
 				<key>img</key>
-				<string></string>
+				<string>2030066000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3092,7 +4098,7 @@
 				<key>description</key>
 				<string>アイテムドロップ率と獲得経験値が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030026000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3101,7 +4107,7 @@
 				<key>description</key>
 				<string>アイテムドロップ率と獲得経験値が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030026000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3110,7 +4116,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030077000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3119,7 +4125,7 @@
 				<key>description</key>
 				<string>回復アビリティ効果30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030028000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3128,7 +4134,7 @@
 				<key>description</key>
 				<string>回復アビリティ効果25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030028000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3137,7 +4143,7 @@
 				<key>description</key>
 				<string>光属性ダメージを15%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2030017000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3146,7 +4152,7 @@
 				<key>description</key>
 				<string>光属性ダメージを10%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2030017000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3158,7 +4164,7 @@
 				<key>description</key>
 				<string>光属性ダメージを10%軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2020021000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3167,7 +4173,7 @@
 				<key>description</key>
 				<string>光属性ダメージを5%(10%)軽減</string>
 				<key>img</key>
-				<string></string>
+				<string>2020021000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3176,7 +4182,7 @@
 				<key>description</key>
 				<string>光属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020034000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3185,7 +4191,7 @@
 				<key>description</key>
 				<string>光属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020034000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3195,12 +4201,640 @@
 	<dict>
 		<key>SSR</key>
 		<dict>
+			<key>セレスト・マグナ4凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「黒霧方陣」の効果が120%UP</string>
+				<key>img</key>
+				<string>2040046000_02.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>セレスト・マグナ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「黒霧方陣」の効果が100%UP</string>
+				<key>img</key>
+				<string>2040046000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>セレスト・マグナ</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「黒霧方陣」の効果が50%UP</string>
+				<key>img</key>
+				<string>2040046000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ハデス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢闇｣｢憎悪｣｢奈落｣｢黒星｣の効果が120%UP</string>
+				<key>img</key>
+				<string>2040090000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ハデス</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢闇｣｢憎悪｣｢奈落｣｢黒星｣の効果が80%UP</string>
+				<key>img</key>
+				<string>2040090000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ハデス・ディヴィジョン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢闇｣｢憎悪｣｢奈落｣｢黒星｣の効果が110%UP</string>
+				<key>img</key>
+				<string>2040274000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ハデス・ディヴィジョン</key>
+			<dict>
+				<key>description</key>
+				<string>スキル｢闇｣｢憎悪｣｢奈落｣｢黒星｣の効果が70%UP</string>
+				<key>img</key>
+				<string>2040274000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>アヌビス4凸</key>
+			<dict>
+				<key>description</key>
+				<string>弱体効果耐性40%UP/闇属性攻撃時にクリティカル確率UP/「闇属性攻撃時にクリティカル確率UP」の効果値が上昇</string>
+				<key>img</key>
+				<string>2040134000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>アヌビス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>弱体効果耐性40%UP/闇属性攻撃時にクリティカル確率UP</string>
+				<key>img</key>
+				<string>2040134000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>アヌビス</key>
+			<dict>
+				<key>description</key>
+				<string>弱体効果耐性30%UP/闇属性攻撃時にクリティカル確率UP</string>
+				<key>img</key>
+				<string>2040134000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>デス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]闇属性キャラの攻撃力130%UP/HPが30%DOWN/[サブ]闇属性キャラが光属性の敵に対して与ダメージ10%UP</string>
+				<key>img</key>
+				<string>6110.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>デス</key>
+			<dict>
+				<key>description</key>
+				<string>[メイン]闇属性キャラの攻撃力120%UP/HPが30%DOWN/[サブ]闇属性キャラが光属性の敵に対して与ダメージ7%UP</string>
+				<key>img</key>
+				<string>6110.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>黒麒麟3凸</key>
+			<dict>
+				<key>description</key>
+				<string>全属性攻撃力50%UP/アビリティダメージ50%UP/アビリティダメージ上限25%UP</string>
+				<key>img</key>
+				<string>2040158000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>黒麒麟</key>
+			<dict>
+				<key>description</key>
+				<string>全属性攻撃力40%UP/アビリティダメージ50%UP</string>
+				<key>img</key>
+				<string>2040158000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>モルガナカー4凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃力が60%UP/闇属性キャラのHP10%UP/奥義ダメージ10%UP</string>
+				<key>img</key>
+				<string>2040288000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>モルガナカー3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃力が50%UP/闇属性キャラのHP10%UP</string>
+				<key>img</key>
+				<string>2040288000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>モルガナカー</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃力が40%UP/闇属性キャラのHP10%UP</string>
+				<key>img</key>
+				<string>2040288000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ベヒーモス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性チェインバーストの威力が150%UP</string>
+				<key>img</key>
+				<string>2040019000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ベヒーモス</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性チェインバーストの威力が120%UP</string>
+				<key>img</key>
+				<string>2040019000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ケルベロス4凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇と火属性攻撃力が40%UP/闇と火属性キャラのトリプルアタック確率アップ</string>
+				<key>img</key>
+				<string>2040032000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>ケルベロス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇と火属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040032000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ケルベロス</key>
+			<dict>
+				<key>description</key>
+				<string>闇と火属性攻撃力が25%UP</string>
+				<key>img</key>
+				<string>2040032000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ナハト4凸</key>
+			<dict>
+				<key>description</key>
+				<string>装備している闇属性召喚石の数が多いほど闇属性攻撃力がUP(最大110%)/闇属性キャラのHPが10%UP　★初回召喚時は全効果が発動</string>
+				<key>img</key>
+				<string>2040212000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>ナハト3凸</key>
+			<dict>
+				<key>description</key>
+				<string>装備している闇属性召喚石の数が多いほど闇属性攻撃力がUP(最大100%)</string>
+				<key>img</key>
+				<string>2040212000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ナハト</key>
+			<dict>
+				<key>description</key>
+				<string>装備している闇属性召喚石の数が多いほど闇属性攻撃力がUP(最大80%)</string>
+				<key>img</key>
+				<string>2040212000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>美少女錬金術師3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラの攻撃力
+回復性能25%UP</string>
+				<key>img</key>
+				<string>2040211000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>美少女錬金術師</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラの攻撃力
+回復性能20%UP</string>
+				<key>img</key>
+				<string>2040211000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>K・B・S・N3凸</key>
+			<dict>
+				<key>description</key>
+				<string>全属性キャラの攻撃力が20%UP</string>
+				<key>img</key>
+				<string>2040207000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>K・B・S・N</key>
+			<dict>
+				<key>description</key>
+				<string>全属性キャラの攻撃力が10%UP</string>
+				<key>img</key>
+				<string>2040207000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>闇の炎の子3凸</key>
+			<dict>
+				<key>description</key>
+				<string>全属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040189000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>闇の炎の子</key>
+			<dict>
+				<key>description</key>
+				<string>全属性攻撃力が30%UP</string>
+				<key>img</key>
+				<string>2040189000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ナリタ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>装備している闇属性召喚石の数が多いほど闇属性攻撃力がUP(最大70％)</string>
+				<key>img</key>
+				<string>2040291000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ナリタ</key>
+			<dict>
+				<key>description</key>
+				<string>装備している闇属性召喚石の数が多いほど闇属性攻撃力がUP(最大60％)</string>
+				<key>img</key>
+				<string>2040291000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>拘束破りし黒銀の翼3凸</key>
+			<dict>
+				<key>description</key>
+				<string>全属性攻撃40%UP(防衛戦では全属性キャラ攻撃80%UP/HP20%UP)</string>
+				<key>img</key>
+				<string>2040131000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>拘束破りし黒銀の翼</key>
+			<dict>
+				<key>description</key>
+				<string>全属性攻撃20%UP(防衛戦では全属性キャラ攻撃50%UP/HP10%UP)</string>
+				<key>img</key>
+				<string>2040131000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>サタン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇と土属性攻撃力が60%UP</string>
+				<key>img</key>
+				<string>2040001000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>サタン</key>
+			<dict>
+				<key>description</key>
+				<string>闇と土属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040001000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>Dエンジェル・オリヴィエ３凸 - 2</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラのHPが40%攻撃力が60%UP/闇属性チェインバーストの威力が25%UP</string>
+				<key>img</key>
+				<string>2040005000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>Dエンジェル・オリヴィエ３凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラのHPと攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040005000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>Dエンジェル・オリヴィエ</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラのHPと攻撃力が25%UP</string>
+				<key>img</key>
+				<string>2040005000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>シャローム3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラの攻撃力40%UP/魅了無効</string>
+				<key>img</key>
+				<string>2040232000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>シャローム</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラの攻撃力30%UP/魅了無効</string>
+				<key>img</key>
+				<string>2040232000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>氷塊の覇王3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃力40%UP
+防御10%UP</string>
+				<key>img</key>
+				<string>2040123000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>氷塊の覇王</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃力40%UP
+ダブルアタック確率DOWN</string>
+				<key>img</key>
+				<string>2040123000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>テュポーン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラの攻撃力が40%UP/再生効果</string>
+				<key>img</key>
+				<string>2040180000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>テュポーン</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラの攻撃力が30%UP/再生効果</string>
+				<key>img</key>
+				<string>2040180000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ディアボロス4凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラ攻撃50%UP
+闇属性キャラのHP20%UP</string>
+				<key>img</key>
+				<string>2040062000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>ディアボロス3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラ攻撃40%UP
+闇属性キャラのHP15%UP</string>
+				<key>img</key>
+				<string>2040062000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ディアボロス</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラ攻撃30%UP
+闇属性キャラのHP10%UP</string>
+				<key>img</key>
+				<string>2040062000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ジャック・オー・ランタン3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃20%UP/オールポーション1個追加</string>
+				<key>img</key>
+				<string>2040041000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ジャック・オー・ランタン</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃10%UP/オールポーション1個追加</string>
+				<key>img</key>
+				<string>2040041000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>アルバコア3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラのHPと攻撃力が25%UP</string>
+				<key>img</key>
+				<string>2040024000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>アルバコア</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性キャラのHPと攻撃力が20%UP</string>
+				<key>img</key>
+				<string>2040024000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ブリュンヒルデ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>弱点攻撃でクリティカル確率UP</string>
+				<key>img</key>
+				<string>2040038000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ブリュンヒルデ</key>
+			<dict>
+				<key>description</key>
+				<string>弱点攻撃でクリティカル確率UP</string>
+				<key>img</key>
+				<string>2040038000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>リッチ4凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇と水属性攻撃力が60%UP/闇と水属性キャラのHP20%UP/バトルメンバーに闇と水の2属性がいるとさらに性能UP</string>
+				<key>img</key>
+				<string>2040012000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>リッチ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇と水属性攻撃力が60%UP</string>
+				<key>img</key>
+				<string>2040012000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>リッチ</key>
+			<dict>
+				<key>description</key>
+				<string>闇と水属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040012000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ルナール3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃力が50%UP</string>
+				<key>img</key>
+				<string>2040286000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ルナール</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040286000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ミリア3凸</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃力が50%UP/バトル開始時に闇属性キャラの奥義ゲージ10%UP</string>
+				<key>img</key>
+				<string>2040170000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ミリア</key>
+			<dict>
+				<key>description</key>
+				<string>闇属性攻撃力が40%UP</string>
+				<key>img</key>
+				<string>2040170000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>[覚醒魔王]神崎蘭子4凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「アンノウン」シリーズの効果が66%UP/我が同胞たちの力を解放せん（アイドルの攻撃力6%UP等）</string>
+				<key>img</key>
+				<string>2040057000.jpg</string>
+				<key>flag</key>
+				<string>2</string>
+			</dict>
+			<key>[覚醒魔王]神崎蘭子3凸</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「アンノウン」シリーズの効果が50%UP</string>
+				<key>img</key>
+				<string>2040057000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>[覚醒魔王]神崎蘭子</key>
+			<dict>
+				<key>description</key>
+				<string>スキル「アンノウン」シリーズの効果が30%UP</string>
+				<key>img</key>
+				<string>2040057000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>胎動する世界3凸</key>
+			<dict>
+				<key>description</key>
+				<string>曜日で効果が変化</string>
+				<key>img</key>
+				<string>2040086000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>胎動する世界</key>
+			<dict>
+				<key>description</key>
+				<string>曜日で効果が変化</string>
+				<key>img</key>
+				<string>2040086000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
+			<key>ツクヨミ3凸</key>
+			<dict>
+				<key>description</key>
+				<string>バトルメンバーの種族数に応じて闇属性攻撃力がUP(最大100％)</string>
+				<key>img</key>
+				<string>2040263000.jpg</string>
+				<key>flag</key>
+				<string>1</string>
+			</dict>
+			<key>ツクヨミ</key>
+			<dict>
+				<key>description</key>
+				<string>バトルメンバーの種族数に応じて闇属性攻撃力がUP(最大80％)</string>
+				<key>img</key>
+				<string>2040263000.jpg</string>
+				<key>flag</key>
+				<string>0</string>
+			</dict>
 			<key>バハムート4凸</key>
 			<dict>
 				<key>description</key>
 				<string>闇属性攻撃力が130%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040003000.jpg</string>
 				<key>flag</key>
 				<string>2</string>
 			</dict>
@@ -3209,7 +4843,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が120%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040003000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3218,7 +4852,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が100%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2040003000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3230,7 +4864,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が40%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030039000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3239,7 +4873,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030039000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3248,7 +4882,7 @@
 				<key>description</key>
 				<string>闇属性キャラのHPと攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030041000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3257,7 +4891,7 @@
 				<key>description</key>
 				<string>闇属性キャラのHPと攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030041000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3266,7 +4900,7 @@
 				<key>description</key>
 				<string>アイテムドロップ率と獲得経験値が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030079000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3275,7 +4909,7 @@
 				<key>description</key>
 				<string>アイテムドロップ率と獲得経験値が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030079000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3284,7 +4918,7 @@
 				<key>description</key>
 				<string>弱体効果耐性が20%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030078000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3293,7 +4927,7 @@
 				<key>description</key>
 				<string>闇属性キャラのHPが5%UP	</string>
 				<key>img</key>
-				<string></string>
+				<string>2030069000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3302,7 +4936,7 @@
 				<key>description	</key>
 				<string>闇属性ダメージを軽減する	</string>
 				<key>img</key>
-				<string></string>
+				<string>2030067000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3311,7 +4945,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が30%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030012000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3320,7 +4954,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が25%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030012000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3329,7 +4963,7 @@
 				<key>description</key>
 				<string>全属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030002000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3338,7 +4972,7 @@
 				<key>description</key>
 				<string>全属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2030002000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3350,7 +4984,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020009000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3359,7 +4993,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020009000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3368,7 +5002,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020022000</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3377,7 +5011,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020022000</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>
@@ -3386,7 +5020,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が15%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020029000.jpg</string>
 				<key>flag</key>
 				<string>1</string>
 			</dict>
@@ -3395,7 +5029,7 @@
 				<key>description</key>
 				<string>闇属性攻撃力が10%UP</string>
 				<key>img</key>
-				<string></string>
+				<string>2020029000.jpg</string>
 				<key>flag</key>
 				<string>0</string>
 			</dict>

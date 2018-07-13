@@ -93,7 +93,7 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         // ビットマップ画像のcontextを作成する
         UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
         let context : CGContext = UIGraphicsGetCurrentContext()!
-        context.translateBy(x: 0.0, y: -outputview.frame.origin.y)
+        context.translateBy(x:  -outputview.frame.origin.x, y: -outputview.frame.origin.y)
     
         // view内の描画をcontextに複写する
         self.view.layer.render(in: context)
@@ -133,39 +133,39 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         present(controller,animated: true,completion: nil)
     }
     
-    // 以下レイアウト用
-    var margin:CGFloat = 3.0
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
-        let width = view.frame.width
-        
-        let colNum:CGFloat = 3
-//        if UIDevice.current.model == "iPad" {
-//            colNum = 5
-//        }
+//    // 以下レイアウト用
+//    var margin:CGFloat = 3.0
 //
-        let widthOfCol  = (width - margin * (colNum + 1)) / colNum
-        let heightOfCol = widthOfCol * 224/375
-        
-        
-        return CGSize(width: widthOfCol, height: heightOfCol)
-        
-    }
-    // 画面の端からの距離
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
-    }
-    
-    // collectionView同士の幅、横軸
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return margin
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return margin
-    }
-    
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//
+//        let width = view.frame.width
+//
+//        let colNum:CGFloat = 3
+////        if UIDevice.current.model == "iPad" {
+////            colNum = 5
+////        }
+////
+//        let widthOfCol  = (width - margin * (colNum + 1)) / colNum
+//        let heightOfCol = widthOfCol * 224/375
+//
+//
+//        return CGSize(width: widthOfCol, height: heightOfCol)
+//
+//    }
+//    // 画面の端からの距離
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+//        return UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
+//    }
+//
+//    // collectionView同士の幅、横軸
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+//        return margin
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+//        return margin
+//    }
+//
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

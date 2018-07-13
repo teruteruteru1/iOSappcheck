@@ -13,7 +13,7 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
     @IBOutlet weak var elementPick: UITextField!
     @IBOutlet weak var rarityPick: UITextField!
     @IBOutlet weak var stonePick: UITextField!
-   
+    
     var delegate: UIViewController?
     var elelist = ["火","風","土","水","光","闇"]
     
@@ -27,22 +27,6 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
         super.awakeFromNib()
         // Initialization code
         
-//        //plistを参照
-//        let path = Bundle.main.path(forResource: "stone", ofType: "plist")
-//        //参照したplistを、dictionaryのsummonに納入
-//        let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
-//
-//        // dataの中身の取り出し
-//        for (element,rarity) in summon {
-//            for (rarity,stone) in rarity as! NSDictionary {
-//                for (stone,data) in stone  as! NSDictionary {
-////                    print(summon["光"]!["R"])
-////                    print(stone)
-//                }
-//            }
-//        }
-//        print(summon["光"]!["R"])
-
         // ピッカー2
         pickerView2.tag = 2
         pickerView2.delegate = self
@@ -115,9 +99,13 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
             return stoneNameKeys[row]
         }
     }
+    
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        print("==> \(self.tag)")
         if pickerView.tag == 2{
             rarityPick.text = rarelist[row]
+            elements[self.tag] = elementPick.text!
+            rarities[self.tag] = rarityPick.text!
             if rarelist[row] == "レアリティ" {
                 return
             }
@@ -126,14 +114,16 @@ class CustomTableViewCell: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewDa
             //参照したplistを、dictionaryのsummonに納入
             let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
             summonlist = summon[elementPick.text!]![rarityPick.text!] as! Dictionary<String, NSDictionary>
-            
 //            print(summonlist)
 //            print("------")
 //            print(summonlist.sorted { $0.key > $1.key }.map { $0.key })
 
         } else {
-            let stoneNameKeys = [String](summonlist.keys)
+//            let stoneNameKeys = [String](summonlist.keys)
+            let stoneNameKeys = summonlist.map { $0.key }.sorted { $0 < $1 }
             stonePick.text = stoneNameKeys[row]
+            print(row)
+            stones[self.tag] = stonePick.text!
 //            print(stoneNameKeys[row])
         }
         

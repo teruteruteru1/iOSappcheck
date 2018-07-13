@@ -12,7 +12,7 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
     
     @IBOutlet weak var elementPick: UITextField!
     @IBOutlet weak var rarityPick: UITextField!
-    @IBOutlet weak var stonePick: UITextField!
+    @IBOutlet weak var stonePick: UITextField!    
     
     var delegate: UIViewController?
     
@@ -29,6 +29,10 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        elementPick.attributedPlaceholder = NSAttributedString(string: "属性", attributes: [NSAttributedStringKey.foregroundColor : UIColor.black])
+        rarityPick.attributedPlaceholder = NSAttributedString(string: "レアリティ", attributes: [NSAttributedStringKey.foregroundColor : UIColor.black])
+        stonePick.attributedPlaceholder = NSAttributedString(string: "召喚石名", attributes: [NSAttributedStringKey.foregroundColor : UIColor.black])
         
         // ピッカー１
         pickerView1.tag = 1
@@ -61,14 +65,6 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
         
         rarityPick.inputView = vi2
         
-//        let toolBar2 = UIToolbar()
-//        toolBar2.barStyle = UIBarStyle.default
-//        let doneButton2   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
-//        toolBar2.setItems([doneButton2], animated: false)
-//        toolBar2.isUserInteractionEnabled = true
-//        toolBar2.sizeToFit()
-//        rarityPick.inputAccessoryView = toolBar2
-        
         // ピッカー3
         pickerView3.tag = 3
         pickerView3.delegate = self
@@ -80,13 +76,6 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
         
         stonePick.inputView = vi3
         
-//        let toolBar3 = UIToolbar()
-//        toolBar3.barStyle = UIBarStyle.default
-//        let doneButton3   = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.done, target: self, action: #selector(CustomTableViewCell.donePressed))
-//        toolBar3.setItems([doneButton3], animated: false)
-//        toolBar3.isUserInteractionEnabled = true
-//        toolBar3.sizeToFit()
-//        stonePick.inputAccessoryView = toolBar3
     }
     @IBAction func tapStoneName2(_ sender: UITextField) {
         print("たっぷされたよ")
@@ -128,33 +117,39 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
         } else if pickerView.tag == 2 {
             return rarelist[row]
         } else {
-            let stoneNameKeys = [String](summonlist.keys)
+//            let stoneNameKeys = [String](summonlist.keys)
+            let stoneNameKeys = summonlist.map { $0.key }.sorted { $0 < $1 }
             return stoneNameKeys[row]
         }
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView.tag == 1 {
             elementPick.text = elelist2[row]
+            elements[self.tag] = elementPick.text!
+            
             if rarityPick.text != "レアリティ" {
                 let path = Bundle.main.path(forResource: "stone", ofType: "plist")
                 //参照したplistを、dictionaryのsummonに納入
                 let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
                 summonlist = summon[elementPick.text!]![rarityPick.text!] as! Dictionary<String, NSDictionary>
-                print(summonlist)
+//                print(summonlist)
             }
         } else if pickerView.tag == 2{
             rarityPick.text = rarelist[row]
+            rarities[self.tag] = rarityPick.text!
             if elementPick.text != "属性" {
                 //plistを参照
                 let path = Bundle.main.path(forResource: "stone", ofType: "plist")
                 //参照したplistを、dictionaryのsummonに納入
                 let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
                 summonlist = summon[elementPick.text!]![rarityPick.text!] as! Dictionary<String, NSDictionary>
-                print(summonlist)
+//                print(summonlist)
             }
         } else {
-            let stoneNameKeys = [String](summonlist.keys)
+//            let stoneNameKeys = [String](summonlist.keys)
+            let stoneNameKeys = summonlist.map { $0.key }.sorted { $0 < $1 }
             stonePick.text = stoneNameKeys[row]
+            stones[self.tag] = stonePick.text!
         }
     }
 

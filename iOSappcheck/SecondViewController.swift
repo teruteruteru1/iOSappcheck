@@ -8,8 +8,9 @@
 
 import UIKit
 
-class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollectionViewDataSource {
+class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout {
 
+    @IBOutlet weak var myScrollView: UIScrollView!
     @IBOutlet weak var myOutputView: UIView!
     @IBOutlet weak var myCollectionView: UICollectionView!
     lazy var shareImage = getImage(myOutputView) as UIImage
@@ -28,14 +29,6 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         // Do any additional setup after loading the view.
         myCollectionView.delegate = self
         myCollectionView.dataSource = self
-        
-//        // 保存対象の UIImageView を作る
-//        let imageView = UIImageView(image: UIImage(named: "sample.png"))
-//        imageView.frame.size = CGSize(width: 960, height: 540)
-        
-//        print(stones)
-//        print(elements)
-//        print(rarities)
 
     }
     
@@ -58,21 +51,21 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
                 let path = Bundle.main.path(forResource: "stone", ofType: "plist")
                 //参照したplistを、dictionaryのsummonに納入
                 let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
-                stoneName = summon[elements[indexPath.row]!]![rarities[indexPath.row]] as! Dictionary<String, NSDictionary>
+                stoneName = summon[elements[indexPath.row]]![rarities[indexPath.row] as Any] as! Dictionary<String, NSDictionary>
             
                 if stones[indexPath.row] == "召喚石名：属性からタップして選択してください。" {
                     Cell1.imageview.image = UIImage(named: "empty")
                 } else {
                     Cell1.summonlabel.text = stones[indexPath.row]
-                    Cell1.imageview.image = UIImage(named: (stoneName[stones[indexPath.row]!]!["img"] as! CGImage) as! String)
-                    if (stones[indexPath.row]?.contains("3"))! {
-                        Cell1.detailview.text = stoneName[stones[indexPath.row]!]!["description"]! as! String
+                    Cell1.imageview.image = UIImage(named: (stoneName[stones[indexPath.row]]!["img"] as! CGImage) as! String)
+                    if (stones[indexPath.row].contains("3")) {
+                        Cell1.detailview.text = stoneName[stones[indexPath.row]]!["description"]! as! String
                         Cell1.detailview.textColor = UIColor.orange
-                    } else if (stones[indexPath.row]?.contains("4"))! {
-                        Cell1.detailview.text = stoneName[stones[indexPath.row]!]!["description"]! as! String
+                    } else if (stones[indexPath.row].contains("4")) {
+                        Cell1.detailview.text = stoneName[stones[indexPath.row]]!["description"]! as! String
                         Cell1.detailview.textColor = UIColor.purple
                     } else {
-                        Cell1.detailview.text = stoneName[stones[indexPath.row]!]!["description"]! as! String
+                        Cell1.detailview.text = stoneName[stones[indexPath.row]]!["description"]! as! String
                     }
                 }
             }
@@ -86,6 +79,11 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
             Cell2.IDLabel.text = gameID[1]
             return Cell2
         }
+    }
+    
+    // 何をズームするのかを決めるメソッド
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        return myCollectionView
     }
     
     // UIViewからUIImageに変換する
@@ -111,23 +109,21 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         UIImageWriteToSavedPhotosAlbum(getImage(myOutputView), self, nil, nil)
     }
     
-    
-    // 保存を試みた結果を受け取る
-    @objc func didFinishSavingImage(_ image: UIImage, didFinishSavingWithError error: NSError!, contextInfo: UnsafeMutableRawPointer) {
-
-        // 結果によって出すアラートを変更する
-        var title = "保存完了"
-        var message = "カメラロールに保存しました"
-
-        if error != nil {
-            title = "エラー"
-            message = "保存に失敗しました"
-        }
-
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        self.present(alertController, animated: true, completion: nil)
-    }
+//    // 保存を試みた結果を受け取る
+//    @objc func didFinishSavingImage(_ image: UIImage, didFinishSavingWithError error: NSError!, contextInfo: UnsafeMutableRawPointer) {
+//        // 結果によって出すアラートを変更する
+//        var title = "保存完了"
+//        var message = "カメラロールに保存しました"
+//
+//        if error != nil {
+//            title = "エラー"
+//            message = "保存に失敗しました"
+//        }
+//
+//        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+//        alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+//        self.present(alertController, animated: true, completion: nil)
+//    }
     
     @IBAction func tapShare(_ sender: UIBarButtonItem) {
         // シェア用画面の作成
@@ -136,7 +132,40 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         // シェア用画面
         present(controller,animated: true,completion: nil)
     }
-   
+    
+    // 以下レイアウト用
+    var margin:CGFloat = 3.0
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        let width = view.frame.width
+        
+        let colNum:CGFloat = 3
+//        if UIDevice.current.model == "iPad" {
+//            colNum = 5
+//        }
+//
+        let widthOfCol  = (width - margin * (colNum + 1)) / colNum
+        let heightOfCol = widthOfCol * 224/375
+        
+        
+        return CGSize(width: widthOfCol, height: heightOfCol)
+        
+    }
+    // 画面の端からの距離
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
+    }
+    
+    // collectionView同士の幅、横軸
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return margin
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return margin
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

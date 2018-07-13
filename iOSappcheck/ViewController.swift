@@ -8,15 +8,16 @@
 
 import UIKit
 
-var elements: Array<String?> = []
-var rarities: Array<String?> = []
-var stones: Array<String?> = []
+var dictionary:[Int:[String:String]] = [:]
+var elements = ["属性","属性","属性","属性","属性","属性","属性","属性"]
+var rarities = ["レアリティ","レアリティ","レアリティ","レアリティ","レアリティ","レアリティ","レアリティ","レアリティ"]
+var stones = ["召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。"]
 var gameID = [String]()
 
 class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSource {
     
     @IBOutlet weak var myTableView: UITableView!
-    
+    var numarr = ["0","1","2","3","4","5","6","7"]
 //    var stones: Array<String?> = []
     
     var CustomCell : CustomTableViewCell!
@@ -28,7 +29,7 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
         
         myTableView.delegate = self
         myTableView.dataSource = self
-
+        
     } 
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -40,17 +41,21 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
             CustomCell = tableView.dequeueReusableCell(withIdentifier: "CustomCell") as! CustomTableViewCell
             CustomCell.elementPick.text = CustomCell.elelist[indexPath.row]
             CustomCell.delegate = self
+            CustomCell.tag = indexPath.row
             return CustomCell
+            
         }
         CustomCell2 = tableView.dequeueReusableCell(withIdentifier: "CustomCell2") as! CustomTableViewCell2
         CustomCell2.delegate = self
+        CustomCell2.tag = indexPath.row
         return CustomCell2
+
     }
 
     @IBAction func tapOutput(_ sender: UIButton) {
-        karappo()
-        karappo2()
-        karappo3()
+//        print(elements)
+//        print(rarities)
+//        print(stones)
         let alert = UIAlertController(title: "グラブルIDを入力してください", message: "", preferredStyle: .alert)
 
         // カスタムテキストフィールドを追加
@@ -64,7 +69,7 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
             self.performSegue(withIdentifier: "segueko", sender: nil)
 //            print(alert.textFields?.first?.text)
             gameID.append((alert.textFields?.first?.text)!)
-            print(gameID)
+//            print(gameID)
         })
         alert.addAction(okAction)
         
@@ -74,56 +79,27 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
         
         present(alert, animated: true,completion: nil)
     }
-    
-    func karappo() {
-        for i in (0..<8) {
-            if i < 6 {
-                let indexpath = IndexPath(row: i, section: 0)
-                let cell = myTableView.cellForRow(at: indexpath) as! CustomTableViewCell
-                stones.append(cell.stonePick.text!)
-//                print(cell.stonePick.text)
-            } else {
-                let indexpath = IndexPath(row: i, section: 0)
-                let cell = myTableView.cellForRow(at: indexpath) as! CustomTableViewCell2
-                stones.append(cell.stonePick.text!)
-//                print(cell.stonePick.text)
-            }
-        }
-    }
-    func karappo2() {
-        for i in (0..<8) {
-            if i < 6 {
-                let indexpath = IndexPath(row: i, section: 0)
-                let cell = myTableView.cellForRow(at: indexpath) as! CustomTableViewCell
-                elements.append(cell.elementPick.text!)
-                //                print(cell.stonePick.text)
-            } else {
-                let indexpath = IndexPath(row: i, section: 0)
-                let cell = myTableView.cellForRow(at: indexpath) as! CustomTableViewCell2
-                elements.append(cell.elementPick.text!)
-                //                print(cell.stonePick.text)
-            }
-        }
-    }
-    func karappo3() {
-        for i in (0..<8) {
-            if i < 6 {
-                let indexpath = IndexPath(row: i, section: 0)
-                let cell = myTableView.cellForRow(at: indexpath) as! CustomTableViewCell
-                rarities.append(cell.rarityPick.text!)
-                //                print(cell.stonePick.text)
-            } else {
-                let indexpath = IndexPath(row: i, section: 0)
-                let cell = myTableView.cellForRow(at: indexpath) as! CustomTableViewCell2
-                rarities.append(cell.rarityPick.text!)
-                //                print(cell.stonePick.text)
-            }
-        }
-    }
+
+//    func karappo() {
+//        for i in (0..<8) {
+//            if i < 6 {
+//                let indexpath = IndexPath(row: i, section: 0)
+//                let cell = myTableView.cellForRow(at: indexpath) as! CustomTableViewCell
+//                stones.append(cell.stonePick.text!)
+////                print(cell.stonePick.text)
+//            } else {
+//                let indexpath = IndexPath(row: i, section: 0)
+//                let cell = myTableView.cellForRow(at: indexpath) as! CustomTableViewCell2
+//                stones.append(cell.stonePick.text!)
+////                print(cell.stonePick.text)
+//            }
+//        }
+//    }
+
     //    戻ってきた時に発動する関数を先に書いて
     //    storybardでbuttonからFirstViewControllerのExitへつなぐことで戻れる
     @IBAction func exitview(segue:UIStoryboardSegue) {
-        print("もどる")
+//        print("もどる")
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

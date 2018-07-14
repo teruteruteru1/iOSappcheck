@@ -133,39 +133,39 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         present(controller,animated: true,completion: nil)
     }
     
-//    // 以下レイアウト用
-//    var margin:CGFloat = 3.0
+    // 以下レイアウト用
+    var margin:CGFloat = 3.0
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+
+        let width = view.frame.width
+
+        let colNum:CGFloat = 3
+//        if UIDevice.current.model == "iPad" {
+//            colNum = 5
+//        }
 //
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//
-//        let width = view.frame.width
-//
-//        let colNum:CGFloat = 3
-////        if UIDevice.current.model == "iPad" {
-////            colNum = 5
-////        }
-////
-//        let widthOfCol  = (width - margin * (colNum + 1)) / colNum
-//        let heightOfCol = widthOfCol * 224/375
-//
-//
-//        return CGSize(width: widthOfCol, height: heightOfCol)
-//
-//    }
-//    // 画面の端からの距離
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-//        return UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
-//    }
-//
-//    // collectionView同士の幅、横軸
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-//        return margin
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-//        return margin
-//    }
-//
+        let widthOfCol  = (width - margin * (colNum + 1)) / colNum
+        let heightOfCol = widthOfCol * 224/375
+
+
+        return CGSize(width: widthOfCol, height: heightOfCol)
+
+    }
+    // 画面の端からの距離
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
+    }
+
+    // collectionView同士の幅、横軸
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return margin
+    }
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return margin
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

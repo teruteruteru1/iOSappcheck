@@ -137,7 +137,8 @@ class CustomTableViewCell2: UITableViewCell ,UIPickerViewDelegate ,UIPickerViewD
         } else if pickerView.tag == 2{
             rarityPick.text = rarelist[row]
             rarities[self.tag] = rarityPick.text!
-            if elementPick.text != "属性" {
+            if elementPick.text != "属性"
+            || rarityPick.text != "レアリティ" {
                 //plistを参照
                 let path = Bundle.main.path(forResource: "stone", ofType: "plist")
                 //参照したplistを、dictionaryのsummonに納入

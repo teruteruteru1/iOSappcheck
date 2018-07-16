@@ -4536,7 +4536,7 @@
 				<key>flag</key>
 				<string>0</string>
 			</dict>
-			<key>Dエンジェル・オリヴィエ３凸 - 2</key>
+			<key>Dエンジェル・オリヴィエ4凸</key>
 			<dict>
 				<key>description</key>
 				<string>闇属性キャラのHPが40%攻撃力が60%UP/闇属性チェインバーストの威力が25%UP</string>
@@ -4545,7 +4545,7 @@
 				<key>flag</key>
 				<string>2</string>
 			</dict>
-			<key>Dエンジェル・オリヴィエ３凸</key>
+			<key>Dエンジェル・オリヴィエ3凸</key>
 			<dict>
 				<key>description</key>
 				<string>闇属性キャラのHPと攻撃力が40%UP</string>

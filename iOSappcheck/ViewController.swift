@@ -12,7 +12,7 @@ var dictionary:[Int:[String:String]] = [:]
 var elements = ["属性","属性","属性","属性","属性","属性","属性","属性"]
 var rarities = ["レアリティ","レアリティ","レアリティ","レアリティ","レアリティ","レアリティ","レアリティ","レアリティ"]
 var stones = ["召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。","召喚石名：レアリティを先に選択してください。"]
-var gameID = [String]()
+var gameID = ["",""]
 
 class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSource {
     
@@ -62,14 +62,16 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
         alert.addTextField { (textField) in
             textField.text = ""
             textField.keyboardType = UIKeyboardType.numberPad
-            gameID.append(textField.text!)
+//            gameID.append(textField.text!)
+            gameID[0] = textField.text!
         }
         // OKボタンの設定
         let okAction = UIAlertAction(title: "OK", style: .default, handler: {(action:UIAlertAction!) -> Void in
             self.performSegue(withIdentifier: "segueko", sender: nil)
 //            print(alert.textFields?.first?.text)
-            gameID.append((alert.textFields?.first?.text)!)
-//            print(gameID)
+//            gameID.append((alert.textFields?.first?.text)!)
+            gameID[0] = (alert.textFields?.first?.text)!
+            print(gameID)
         })
         alert.addAction(okAction)
         

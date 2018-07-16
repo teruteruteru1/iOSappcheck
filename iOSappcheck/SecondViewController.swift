@@ -53,7 +53,8 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
                 let summon = NSDictionary(contentsOfFile: path!) as! [String:NSDictionary]
                 stoneName = summon[elements[indexPath.row]]![rarities[indexPath.row] as Any] as! Dictionary<String, NSDictionary>
             
-                if stones[indexPath.row] == "召喚石名：属性からタップして選択してください。" {
+                if stones[indexPath.row] == "召喚石名：属性からタップして選択してください。"
+                || stones[indexPath.row] == "召喚石名：レアリティを先に選択してください。" {
                     Cell1.imageview.image = UIImage(named: "empty")
                 } else {
                     Cell1.summonlabel.text = stones[indexPath.row]
@@ -76,14 +77,15 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
             return Cell1
         } else {
             Cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell2", for: indexPath) as! OutputCell2
-            Cell2.IDLabel.text = gameID[1]
+            Cell2.IDLabel.text = gameID[0]
+            print(gameID[0])
             return Cell2
         }
     }
     
     // 何をズームするのかを決めるメソッド
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-        return myCollectionView
+        return myOutputView
     }
     
     // UIViewからUIImageに変換する
@@ -108,22 +110,6 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         // カメラロールに保存する
         UIImageWriteToSavedPhotosAlbum(getImage(myOutputView), self, nil, nil)
     }
-    
-//    // 保存を試みた結果を受け取る
-//    @objc func didFinishSavingImage(_ image: UIImage, didFinishSavingWithError error: NSError!, contextInfo: UnsafeMutableRawPointer) {
-//        // 結果によって出すアラートを変更する
-//        var title = "保存完了"
-//        var message = "カメラロールに保存しました"
-//
-//        if error != nil {
-//            title = "エラー"
-//            message = "保存に失敗しました"
-//        }
-//
-//        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-//        alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-//        self.present(alertController, animated: true, completion: nil)
-//    }
     
     @IBAction func tapShare(_ sender: UIBarButtonItem) {
         // シェア用画面の作成

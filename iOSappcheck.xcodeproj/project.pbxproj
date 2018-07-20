@@ -21,7 +21,6 @@
 		DDCED0FD20D77B6A0037EEE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCED0FB20D77B6A0037EEE6 /* LaunchScreen.storyboard */; };
 		DDCED12820D78E5E0037EEE6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCED12720D78E5E0037EEE6 /* CustomTableViewCell.swift */; };
 		DDCED12A20D839CB0037EEE6 /* stone.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDCED12920D839CB0037EEE6 /* stone.plist */; };
-		DDF6FBBA20F734C200183C15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF6FBB920F734C200183C15 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +42,6 @@
 		DDCED0FE20D77B6A0037EEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDCED12720D78E5E0037EEE6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		DDCED12920D839CB0037EEE6 /* stone.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stone.plist; sourceTree = "<group>"; };
-		DDF6FBB920F734C200183C15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,6 @@
 				DDCED0FE20D77B6A0037EEE6 /* Info.plist */,
 				DDCED0F620D77B670037EEE6 /* iOSappcheck.xcdatamodeld */,
 				DDCED12920D839CB0037EEE6 /* stone.plist */,
-				DDF6FBB920F734C200183C15 /* Images.xcassets */,
 			);
 			path = iOSappcheck;
 			sourceTree = "<group>";
@@ -177,7 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDCED0FD20D77B6A0037EEE6 /* LaunchScreen.storyboard in Resources */,
-				DDF6FBBA20F734C200183C15 /* Images.xcassets in Resources */,
 				DDCED0FA20D77B6A0037EEE6 /* Assets.xcassets in Resources */,
 				DDCED12A20D839CB0037EEE6 /* stone.plist in Resources */,
 				DDCED0F520D77B670037EEE6 /* Main.storyboard in Resources */,

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad12_9" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,7 +15,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOSappcheck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ふれ石ぴっかー" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqR-ki-gvZ">
@@ -26,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65f-XQ-Ksq">
-                                <rect key="frame" x="255.5" y="27" width="756" height="35"/>
+                                <rect key="frame" x="255.5" y="27" width="107" height="35"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" title="出力">
                                     <color key="titleColor" red="1" green="0.77965627804132343" blue="0.060180581990816995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -36,15 +35,15 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" estimatedRowHeight="-1" sectionHeaderHeight="23" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DKY-QI-mHS">
-                                <rect key="frame" x="0.0" y="72" width="1024" height="1294"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="75" id="LdG-3V-hP0" customClass="CustomTableViewCell" customModule="iOSappcheck" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="23" width="1024" height="75"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="75" id="LdG-3V-hP0" customClass="CustomTableViewCell" customModule="iOSappcheck" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="23" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LdG-3V-hP0" id="nCb-pN-qDw">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="74.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="属性" borderStyle="roundedRect" placeholder="属性選択" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ihP-8c-dqq" customClass="CustomTextField" customModule="iOSappcheck" customModuleProvider="target">
@@ -58,14 +57,14 @@
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="レアリティ" borderStyle="roundedRect" placeholder="レアリティ" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bch-jx-P9V">
-                                                    <rect key="frame" x="918.5" y="3" width="93" height="30"/>
+                                                    <rect key="frame" x="269.5" y="3" width="93" height="30"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="召喚石名：レアリティを先に選択してください。" borderStyle="roundedRect" placeholder="召喚石名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9g0-zy-oV3">
-                                                    <rect key="frame" x="12.5" y="37" width="999" height="30"/>
+                                                    <rect key="frame" x="12.5" y="37" width="350" height="30"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -97,11 +96,11 @@
                                             <outlet property="stonePick" destination="9g0-zy-oV3" id="qOA-Mn-n7Q"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomCell2" rowHeight="75" id="qol-ek-bnA" customClass="CustomTableViewCell2" customModule="iOSappcheck" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="98" width="1024" height="75"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomCell2" rowHeight="75" id="qol-ek-bnA" customClass="CustomTableViewCell2" customModule="iOSappcheck" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="98" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qol-ek-bnA" id="lBk-No-K0n">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="74.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="属性" borderStyle="roundedRect" placeholder="属性選択" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kYe-hR-Erz">
@@ -115,7 +114,7 @@
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="召喚石名：属性からタップして選択してください。" borderStyle="roundedRect" placeholder="召喚石名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yy7-kD-d56">
-                                                    <rect key="frame" x="12.5" y="37" width="999" height="30"/>
+                                                    <rect key="frame" x="12.5" y="37" width="350" height="30"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -125,7 +124,7 @@
                                                     </connections>
                                                 </textField>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="レアリティ" borderStyle="roundedRect" placeholder="レアリティ" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="id0-je-BTQ">
-                                                    <rect key="frame" x="918.5" y="3" width="93" height="30"/>
+                                                    <rect key="frame" x="269.5" y="3" width="93" height="30"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="93" id="lN9-7Z-9Xv"/>
@@ -199,11 +198,11 @@
             <objects>
                 <viewController id="13S-bu-etu" customClass="SecondViewController" customModule="iOSappcheck" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QEY-eC-dgu">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Va3-Do-ach">
-                                <rect key="frame" x="352" y="587.5" width="320" height="191"/>
+                                <rect key="frame" x="27.5" y="238" width="320" height="191"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aJp-0V-a9g">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="191"/>
@@ -246,7 +245,7 @@
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="5"/>
                                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                 </textView>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageView:u80-Lv-4St:image" translatesAutoresizingMaskIntoConstraints="NO" id="u80-Lv-4St">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2020006000" translatesAutoresizingMaskIntoConstraints="NO" id="u80-Lv-4St">
                                                                     <rect key="frame" x="0.0" y="25" width="37" height="25"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 </imageView>
@@ -335,11 +334,10 @@
                                     <constraint firstAttribute="height" constant="191" id="eOT-iI-fcg"/>
                                     <constraint firstItem="aJp-0V-a9g" firstAttribute="top" secondItem="Va3-Do-ach" secondAttribute="top" id="exT-HM-rJ9"/>
                                     <constraint firstAttribute="width" constant="320" id="psX-XD-rX8"/>
-                                    <constraint firstAttribute="width" secondItem="Va3-Do-ach" secondAttribute="height" multiplier="375:224" id="tC3-KE-8p0"/>
                                 </constraints>
                             </view>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDW-zp-mZw">
-                                <rect key="frame" x="0.0" y="1322" width="1024" height="44"/>
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
                                     <barButtonItem title="EXIT" id="6y4-Fa-aK9">
                                         <connections>
@@ -383,416 +381,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="imageView:u80-Lv-4St:image" width="90" height="51">
-            <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGVVZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEgcI
-ExQZHh8jJCsuMTtDR0tPUlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdz
-Vk5TUmVwc1dOU0NvbG9ygAKAERIgwAAAgAOAC1h7OTAsIDUxfdIVChYYWk5TLm9iamVjdHOhF4AEgArS
-FQoaHaIbHIAFgAaACRAA0iAKISJfEBROU1RJRkZSZXByZXNlbnRhdGlvboAHgAhPEUq6TU0AKgAAR8DF
-gnT/tnxp/513XP+YeVn/mXlX/6B9Xf+gd1n/nnZb/5l7Y/+ggGn/nnVj/6JvX/+zdmb/tHlk/6N1Wf+c
-dVX/tHdh/7J8ZP+neGD/oHpg/6SIbf+ki3L/oIRs/6KDbv+shHT/tod5/7SCdf+0gHT/u4l6/7eIeP+r
-hHD/rYhz/76MeP++jHj/v4x6/8GOfP/FkID/x5KE/8eShP/HkYf/zJaM/86Yj//QmJL/zpaS/8yUkP/N
-lJP/0pmY/9adnP/Im5b/zaCb/8eZlP/arKf/1qag/8aWkP/ZqaP/0KCa/86hnP/araj/z6ah/8CZk//G
-n5r/y6eh/8Winv/Bnpr/w6GS/72cjv/Ep5j/tJqM/6uVhf+3o5D/r5qF/6eReP+bf2f/jG5W/2xMNf9j
-QC7/bkw//147Nf9UNDD/cVFR/49rWf9dOin/UjMi/0ktG/9CJxf/TDEi/0AjFf9QLiH/WDAj/0sfE/+k
-ZFf/t39v/7yWfP+6m3z/vJp7/72Yev+6j3P/to10/7CPd/+wj3j/r4Rz/698a/+5e2z/uX5p/6+CZv+t
-iGf/r3Fd/7h9av+ygGr/pXtl/598Zf+be2T/nHpk/6N8af+cbV3/pnBi/6RpW/+iZ1r/p29g/6RvXP+b
-bVj/oHRe/59rVP+daFP/m2ZR/5plUv+aZVL/mmVU/5pkVf+ZY1X/lV9T/5dgV/+ZYln/mmNb/5pjXP+Z
-YV3/mWJb/5piXv+bcGj/k2df/5FlXf+OYFj/k2Vd/55waP+Za2P/kWNb/5FkX/+VamT/k2pj/5NrZP+Z
-dm3/nHhx/5x5cf+gfnb/n31t/6B/b/+qjX7/pYx7/6iSgv+xm4n/p5J9/6uVf/+qjnf/v6KK/7ychv+z
-kn//o4Fz/5Z2bf+ggH3/mHh3/8Gdi/+3lYX/xqeW/7mdjP+6n4//tZqK/6iLfP+Vc2X/h2BT/21BNf+m
-Z17/1J+R/+K9pv/QsJb/1LCV/9eulf/arJX/3K+a/82mkf/MpZL/zqCQ/9Cbi//QlYX/ypN9/8KZff/C
-ooH/zIh8/8qKfP/DiXn/u4Z2/7uMev+/kX//vYx6/7mDc//Fh3n/zYp8/8mCc//Demr/wn1q/7t6ZP+y
-eF7/uIBl/7d/ZP+1fGT/r3lg/6x1Xf+pclr/pW9Z/6NtWP+ibVr/o25d/59sXP+caVn/m2hZ/5hmWf+W
-ZFn/kmJU/49eU/+Xb2L/f1dK/45lWv+KYFX/jWJX/5NnXf+GWlL/oHRs/5pvZ/+YbWX/mnFo/6R9cf+n
-hHf/p4Z2/6iIef+xkYH/waCL/8SjkP/KrJv/yq+e/9S9rP/Uvaz/zbek/+3Uwv/PtaL/zbCc/7ydiv+y
-k4L/lndo/4trYf+TdG7/c1VR/5x3aP+jgXH/spOC/7OXhv/Qt6b/zrWk/7ugkP91Vkj/kWpe/3JGOv+W
-XFT/voyB/6aCcP9hQSz/Yzsn/2Y4Jf9tOCf/cDoq/21ALf9qPSr/c0Ew/3tFNP96Pyz/dD4o/2hEJv9f
-QyP/jFBE/5RaTf+dZVj/lmNU/4xcTP+WZlb/q3hn/7qAcP+9fW7/zId1/9GJdv/Si3P/1JN3/8+Rcv/I
-kGz/ypZx/7OGZP+zhmT/soZk/6+DY/+pf17/o3pa/6B3Wf+ddVj/iWNI/4NfRf9+WT//eVU9/3dWPv91
-Uz3/cFA5/2xMNf9cNyb/ZUAv/3JNPv9fNyr/XDQp/3FIP/9nPjX/XTUt/183Lv9dNSz/Xzcs/185K/9Y
-NST/WDgj/1o8JP9XOSL/VzYe/1c3IP9WNyL/Uzcj/1tCMP9UOir/Uzsr/451Zf+Vemr/dFdG/3BSQf94
-W0z/d1lM/3JUSf9wUkj/d1pS/6mEdf+4lob/pYZ2/49yYf94X0//bVRE/3hdTv9TMyX/elNI/2A0Kv+o
-dGr/xpeM/5RxYf86GQj/Vywb/2g1Jv9yNyn/cjco/2g1JP9gLhv/azQi/3c9Kv96Pyn/gU81/3xePf9t
-VzL/XjUl/1AoGP9aMyP/ck07/39bSP+JZE//h1xI/3VGMf95Qy7/f0Ut/3Q7H/9rMxX/azkX/2g9Fv9n
-QBf/cEse/2lXKf9uXC7/cmEy/3NiNP9uXjL/aVku/2NVLP9gUyv/al42/2dcNf9lXDX/ZF04/2NdN/9e
-WDT/U08r/0tHI/9wUjv/VjYh/1Y1I/9+W0v/c05C/1ErIf9YMCn/Vi4n/1oxKv9eNy7/ZD4w/1g1JP9P
-Lhf/X0Ak/2lMLP9ZPR7/Xj4g/1o6Hv9YOR//UzUe/1M3I/9AJRT/Qykb/4RqXv+Uem7/f2NY/5Z6b/+I
-a2D/gGNV/3daTP9TNin/c1VI/3RPQP+HZFT/fF5O/5R5aP+Qd2f/j3Zm/39kVv9QMCT/c05C/18zKf+Z
-aF7/vpKG/5BvX/9GJBT/lGZX/7iAc//EgXX/w39x/8uQff++iHD/xYx0/8uRd//TmX3/8cKi//rkvP/r
-27D/1LOe/8Ggi//gv6r//fLd//303//64Mv/1KiS/51tVf/ptpv/1aCC/6t3Vv+NXjf/kGc7/6OBUP+8
-n2n/176F/+niq//v6LH/9fC5//fyvf/08Lz/7+u5/+zpuP/s6br/9vXF//j4yf/7+87/+fvP//L1yP/k
-5rz/0dar/8bLoP/FqZD/mHxl/6SHc//kxLT/uJeL/35ZUv+rh4H/xp+a/5x2b/+ognj/uJaG/7eWf/+6
-m37/5cal//vlv//y16//1bWS/8amhf/Do4T/vZ6D/6+Qe/+Rc2L/iGte/7qelP+EaWH/iG1m/6aLg/+L
-cWb/mX1y/8+yo/+5nYz/rJB//8SfkP+jgXL/ZUc2/0guHv9aQTH/gmlZ/3tgUv9DIxf/dlFF/2E3LP+M
-X1L/tY1//4hqWP9CHxD/oXJk/8WHev/Lgnb/y39w/8OCav+7fmD/wIRk/7yBX/++iGL/6r+X//zvvv/t
-4rH/xJqE/8ichv/30Ln//fHb//bIsv+/inX/pGxX/5ZcRf+9gGf/sHZb/5hiQ/+TYz7/rYVZ/86te//r
-0Zv//O21//Puuf/4877//vnE//76xv/79sL/+fPC//r0xP/89sj//vnN//760P/++9H//vfO//Tux//q
-5L7/4du1/9zWsP+SfGP/eWFL/5B1ZP+KbWD/Ty8o/2dGQf+mg4H/lXBv/4djX/+MaWD/pIJz/7CPeP+4
-mXr/6Mqk//31zf/98cT/7s6m/82rhf/FooD/v5t9/62Kcf+Rblz/gGFS/5l7cv+DaGP/hm1q/4pzb/9w
-WFD/eF5S/97Ds//759P/p4p0/49tXv+8m4v/yqyc/081Jf81Hg3/Tzcp/3BWSP9GJxv/d1FH/181Kv+P
-ZFP/upOA/4prWP8/HAr/pHFi/8aDdv/QgHL/1oZx/8V/Yf/FhWD/z5Fn/8KHW/+8h1r/6cGR//3yvP/q
-46r/4bSW/6+AZP+vfmP/yJR6/7R7Y/+aYEn/oGJL/6FjTP+YXEP/qnRX/8GQcP/juZX/++W5//3zw//8
-7Lj/+uq0//j2w//9+cf//vvJ//35yP/69MT/+fPF//32yv/++ND//vnS//730v/988///O/N//ztzf/9
-8dT//vrc///93//cyLT/WUMy/15GN/90Wk//TS4q/2REQ/+Mamv/j2xs/4xnZv+BXVb/lXBi/6J+af+f
-f1//w6N9/+3Oov/u0KL/8c6j/8CddP+1j2n/s4xq/6iAY/+YcVz/i2hZ/5Z2bf+DZmL/iXFv/4Nsaf9u
-WFH/RSwh/6GGdf/53cf/cFI6/x0CAf+VdGT/+d7P/04zJP8qEwP/OSET/29VR/87HBD/f1lP/2Q5MP+Q
-ZlD/qIJq/4xsVP9iPCf/rnho/+ehkv/vnYv/5I91/9SLZf/QjmH/xohW/8aLV//XpG7/7sqS//fqrP/z
-8LH/1qiB/8yceP+fa0r/rHVV/5hfQv+YXUH/rXBX/7mAaP/QnYD/6b2e//PQrv/99tL//fHI//ntv///
-/9L/8eu7//X3x////9D/+ffJ//z5zv/++tH/+PHL//750v///9z///3e//vpzP/Ktpv//vni//734f/9
-9OD//fbi/+7Rvf+Zh3j/XEc6/1E6MP9ONC//TzMw/2NEQ/9qSEv/fVha/4tmZf+JY1z/kWtc/45pU/+m
-g2P/uZdx/7mZbf/hwJH/5sGT/9qzhv+/lWv/roNc/4xgP/+QZEv/iWJP/4dkWf96XVn/kHh2/3tmZf9Q
-PDf/W0Q4/5+Ec//Yu6P/dFU7/ywIAv/NrJz/v6KT/y4VBP8sFQb/LBUG/11DN/9NLiP/gV5T/2Q5MP+a
-b1P/qoJn/4hnTf9SLBb/kFhG/8N7af/JdF//wGpN/8Z7T/+zcD3/t3lA/6hvNf/BjlL/7cqM/+3goP/5
-97X/6b+S/7WJXv/Nnnb/9sij//fMqv+ZYEL/nGdK/8GRdv/ctZf/+d28//3yz////tf////Y////1P/9
-/9T/+PvO//T5zv///9j////Y////3P///97//vva//ry0v/37M7//O3S/8eym/+AaVX/5su6/+/Twv/A
-oJL/jG1e/2VDN/9TQDf/Mh0W/0QuJ/9ZQD3/Wj08/1ExMf9SMDD/eFNS/4JbV/97Ukn/f1hF/4xjSv+y
-i2r/xJ52/7eSZv/Pqnv/vZVo/76UZ/+oek7/qXlO/5ppQv+QYUD/fVA5/4ljVP9tT0X/hW5q/4x4dP9o
-VE//Tjcr/3dcS//Rs5v/ooFl/7iWh/+3loj/UjUm/yIGAv8SAQH/QSkd/3ddUf80Fgv/g19U/2I5MP+b
-b1D/pn1f/41qTf9XLhf/kVdE/8l+bf/Wf2r/1X5f/9OJWv/BfUX/1pZX/8WKSv/bqGn/+uKk/+3fn//x
-7q3/7MyZ/7uZav/UroH//fXL//3zzv/htZL/p35e/7qZeP/AqIj/6tq4///81v/2+NH//v/e//z/3v/q
-9cv/+P/a//7/3//9/93/9PrU/+/xzv/y8tD/9PHS/+Pewf/RyK//5NbA/7inlP9JNSX/aFBD/3FXS/9b
-PTP/Rige/0kpIv9XQz//gGlm/7qkof/Dqqf/mHt5/18+O/9MKSP/dE5G/35VSv95Tj3/ek85/4pfQ/+x
-hmL/vZNp/66EWP++lWb/v5Rm/8WXav+ygVH/uoVX/7F7Tf+bZz//fE0u/4xjTP9qTD3/dF1V/4h0b/9w
-Xlj/Vj8z/31iUf/VtJ3/p4Vp/7iXif+xkYP/JQoC/xcBAf8ZAgH/UTot/1hAM/86HBP/gV5V/2I5MP+e
-b0//onVZ/5VxVf9kOiT/ml9O/9WKe//nkHv/7ZZ2/9eNXf/PjFH/3J1c/9qgXf/vvHz/+uKl/+/fof/h
-25//1raG/7GMYP/DmnH/++rF//3y0f/76cv/onlb/3tYO/+BaUv/v7GQ/+7nxv/6+NX////e//7/3P/2
-99P//P3Z/9DLq//Sy67/6eLE//733P///uT///3m/9HBq/+Qf2z/zrio/8Wuof9hRzz/XkA4/2ZHQP9Z
-ODP/YD86/4xpZf/RvLv/++rp//zs6P/Gq6b/hGdg/188M/9gOi7/gFhI/3NINP99UDf/f1Iz/4pcOP+m
-eE7/r4BT/6+CUf/Fl2b/y51w/8eWaP+6hFT/wYdW/6xxQP+mbUD/kl84/41iRP9vUTz/blZJ/31qYv9j
-UUn/UTou/3tdT/+si3T/WzQe/yoIAv+sjX7/dFlL/xMBAf88JRn/ZU5B/z0kGf8dAgH/f1xT/143L/+n
-dFf/oHFV/5xzXP9lOCb/jE5B/7xxZf/Ca1r/yXNW/8h9UP/Ni1L/w4RF/9ieXv/yvH//+NOa//3zvP/1
-7bf/99Gv/6l2Vv+wel3/z5V7//XDrf/Ii3f/h1E9/3JDL/+yjXX/8dO6//763//++9//4Muv/8GojP/q
-zrP/6cux/6iGcf/auKb//fTj//vn1f/CnY7/km1f/21GOf9hOS7/0auh/66Gf/9SKSP/XDMv/3hMSf9k
-ODf/dEhG/7eLjP+kjo3/qZOQ/3xjXv9KLib/QyQY/1IvHv9kPif/cUkt/2o+Hv+DVTD/hVYu/45dMf+n
-dkb/s4FP/7uKVv/MmmX/yZht/7qHWv+5f07/v4FN/6dmMv/Iilb/z5lq/6+DXP9pSC3/YEc1/3ZjWP9l
-U0n/V0A0/3daSv+feWb/XjYh/xsCAf9VNSf/im9h/zskFf9KMyb/RC0g/yIJAv8YAQH/e1hP/1wzLP+t
-dl3/nGpT/591Yf9oOSv/hUY//7FlXP+uV0n/s11E/7duQv/Ni1L/xIVI/+mtb//1vYX/6r6L//32x///
-/tD//PDW/86chP+kbFf/nmNQ/5laSv93OSv/dT0u/5tqWf/418H//fbf//733//01rz/lHFW/3FIMP/S
-pYv/88Kq/7GBcv+TY1X/mmpc/35OQP9nOCz/dUY7/2Y4LP9bLCP/ZDkw/2I3MP9GHBf/XjUx/3NLR/9c
-NDH/UCcl/101NP9MNTL/TDQw/zwhGP9KLSD/YkMw/25LMP95VDT/fVMt/4JXLf+oeUn/oXE9/59uOf+0
-gEr/vYhQ/76JUf+2gUr/v4th/7J7UP+zdUT/vHpE/7FtNf/npmv/87uF/8udcP+BXz//Vz4p/15MPv9f
-TEP/ZExB/3RWR/+XcF3/glZC/zEPA/8hAgH/ZEk7/3RdTv9QOSz/LRcK/xkCAf9DJRv/eVZN/1kxKf+w
-dV//mGJO/6N2Zf9wPzX/j01K/75xb/+6Ylj/wGtU/61mPf/FhE//0JFW/+eqb//Xnmr/vI5h/9/Gnf/8
-78n/+uTP/+bArf+rfm3/sYFy/4NPQP9xPjD/ZTYm/39VRP+xkXn/uZ2E/6SLb/+KbVD/Xzof/14zGf+3
-g2n/9cKm/7GAbv92QzX/cEAx/1wtH/9WKBr/ckc5/2E5LP9ULiL/RSIX/0wtIv9HKR//PSIa/zwkGv9G
-Lif/UTsz/0MtJf9DKyf/RSwm/0AkGf9QMiH/VDQb/1w4Gf9/WC//hVot/7WHUv/nt33/1qVo/7yIS/+6
-hEj/uoRI/72FSv+rczr/rndQ/7J3Tf+kZDT/sGs2/8F7Pv/mpGT/15xi/76OXf+wjmj/b1Y9/1E/Lv9C
-LiP/UDcs/1Y2Kv9mPS3/XzAf/yACAf9HKBz/VTot/1Q8Lv85Ihb/RC0h/1A3LP9qTEL/eFVN/1kxKf+1
-d2P/ll5M/6R1Z/9wPzf/jUtK/7xvbf+3X1f/vWdS/793Tv/HhlL/3J1i/9aZYP+udET/l2g+/72kff/9
-9dH//fbl/9+/rv+shnf/rIF0/6l7b/9jNSn/YDcn/1o1JP8/Igz/QScP/0AoDv9EKQz/WjUZ/2M1G/90
-PiL/rnJX/5ViUv9mMiP/eUk6/20/L/9eMCL/cEU4/2I8Lf9ePC//UjUm/zogFP9BKh7/Tz0v/0Q1KP89
-LyL/Qjcr/y0iFv85IBz/RCoi/0AlF/9MLxr/Wjoe/4VhPP/Ammv/uI5a/9Olav/646P/99CO/9GcWv+3
-gUP/tH1A/8aNUf+9hEj/rXVP/8OIXf+oZjf/t3E7/+ObW//vq2v/wYVK/72NWv+1k2z/h25U/2RSP/85
-JRr/Ri0i/1Y2Kv9lPCz/YjMi/0cnG/9CIxf/JwwC/z4mGf83IBT/LhcM/3JaT/+LbWT/eVZO/1kxKv+w
-dGj/lV1U/7CEfP97TkH/hE8z/7J0Tf+vZzf/tmw9/8B6UP/LhF3/2I1l/7trQv+/bD//t2pA/7B0Uv/6
-4cT//vnt//vq3f+ukn7/so13/7GEaf9vOiP/azEf/280J/9nLij/VSAe/1AgIP9SJiX/Uyoh/0slFv+P
-bFX/nnxg/8Kcjf+Qalv/VC4f/1kyJP9dNyn/cEs9/1w4LP9WMib/Tiog/1IuJP9OLCH/RiMY/0MiGf9I
-Jx7/RyYd/z8eFf9OGyD/TBoa/2EvJP9kNxb/bEcU/7STNv/y1Fr/58pP/9u7S//52Gv/++V5/+zGX//2
-0GX/0qlJ/7iLO//KnFD/2p9K/9SaRP/aoUb/8Lha//XCZv+veC7/1J5b/7J8Tv+KVzv/mWle/1UnJ/9q
-QkT/a0tC/15DMv9tWDv/ZVMv/0onE/9HJRT/Vzsp/3BWSv9AJx7/Jg4G/15DO/9tT0X/bUk9/101Jv+2
-eW7/kFhP/6+De/9/UkX/gk0x/69xSv+zazv/um8//8V/Vf/EfVb/xntS/7lpQP/Jdkn/w3dM/7V3VP/w
-u53//fHi//756P/Ut6H/sY1y/7eKb/+FUTn/YioY/3hAMf9cJR7/SxkW/08iIv9MIyH/Uywl/04qHv9r
-Szb/YUEq/31XSP9oQTT/TSYY/1gwI/9TLSD/Xzkr/1YwJP9cNir/Uy0h/1MsI/9NKR3/RyMZ/0UiF/9H
-Ixn/RyMZ/0MfFf9YICT/Zi4s/3Q/M/9uQB3/flkb/8eoRP/43WH/5sxQ/9m9TP/11mj/+uN3/9ewTP/l
-vlb/7MBe/+KxXv/wvXD/6rBa//W9Zf/ttFr/46xS/+63Xf/fqln/vYhG/5tmNv9NGgb/YS8k/6l8ef9V
-Liz/ZUU8/4htXP96ZUn/kX5c/6WDbf+RcF3/g2ZV/3dbUP9AJx7/OSAZ/1Y7Mv8xEgf/bko9/142J/+7
-f3H/iVFG/7CEev+IW0z/gEsv/6xtRv+5cED/wHVF/8qEWv/Ee1X/vG9I/71qQv/Ldkn/yHpP/8CBXv/Q
-mHn/++rU//764v/qzrP/q4dp/7iMbf+YZ0z/VSAN/2YwIf9iLyf/TyIf/1UsLf8+GRn/OhoV/z4gF/9A
-JRb/NBkH/0kkFv9KJRn/SiUX/1o0Jv9WLiH/WDAj/1QtIP9dNSj/WTEk/1MsIP9OJhn/TCMY/0ohF/9J
-IBb/TCMY/1EoHf9hHyD/ejs3/39FNf9xPxr/i2cj/8+0TP/r11r/2cZK/+jTXP/23Gv/++Z5/8CZOv/F
-mTr/36xO/8iMQP+4ezf/snkw/7+GOv+xeS3/p3Am/8eTQf/52Ib/yJVT/76MWv+caUv/RhYG/5hrZ/++
-l5T/Px4W/0AjFf+SemH/o45w/7OPef+igG7/dldH/ycKAv9XPTT/cVZP/xcBAf80Fgz/cU1A/2A4Kv+8
-gHH/hE1A/7OHff+SZFb/gUww/6xtRP+/dkb/x3xM/8J6Uf/CeVP/vXBJ/8FvRP++ajz/u2tA/8KDXv+/
-hmj/8uDE//ztz//ix6f/tpNz/8KXeP+xgWb/cj0p/2AtH/9fLij/TyUj/1g0NP89Hh3/LxMQ/zMbE/8r
-Ewf/Nh4Q/0gkGP9NJxv/Uiwg/185Lf9fNyr/WzMm/1cuIf9ZMSP/Yjgq/1gtIP9TJhn/UyYZ/1MkGP9T
-Ixb/XCwe/2g4K/+FODX/nVVL/5JSP/+BTSP/o34y/9W6UP/fz1P/1cdK/+vbYv/r1mT/+uN1/7yVN/+/
-jzT/36VM/8iGPv+4cDL/xo1F/8CHP/+5gTb/snwx/7iENv/otmf/l2Qo/39MHv98TCv/m2xZ/0gbE/93
-T0v/f1xT/04wIf9ILRj/XUQs/1oyH/85EwT/JwQC/2NEOf9/Y1v/PSAZ/x0CAf85GA//dVBE/2I6LP+7
-f2//gUo7/7CEeP+RZFP/hFAx/7FySf/Ee0v/yn9O/7VtRf+6cEr/v3BI/8dzSf+/aTv/u2k+/75+Wf+z
-d1n/va2L/8Ovjf+4nHr/sZBt/6iAYP+db1P/i1pE/2EwIf9XKyP/Rh0b/00qKv9GKSr/QCYk/0AoJP8t
-Fg7/RC0j/1IwJf9UMCb/WzQr/1kzJ/9XLyL/Tyca/1IoG/9YKh7/az0v/2IxIv9cKhz/Xyka/2ApGv9j
-Khv/cDco/39HN/+fSz7/qVpJ/5RPNf+MUif/r4g5/86zSv/SxEr/18xN/+fbYf/m02L/+uBy/8KaO/+8
-iDD/zo86/9aLRv/pmFv/zZVT/8mRT//cplv/3qpb/8uXSP/PnFH/pnM0/2MxDv9TIQn/VicR/2EzJf9C
-GRD/Z0A2/2VENP9nSDT/YEEs/0EXBf9nPS7/nnlr/2xJQP8zFAz/LxAK/yICAf9CHxf/d1JG/2Y8Lv+8
-gHD/gUo7/6J2av+AVEP/h1M0/72AVv/If07/yH1M/7dvR/+1a0X/xXZO/9F+U//TfU3/0oBU/8CAW/+0
-eVn/18mm/9rJp//iyKb/3r6e/7ePcv+tgGf/v456/55uXv+CVkz/Yzs1/0QhHv9EIyL/Riol/0ouKf85
-HRT/TDAo/00qH/9SLiT/Xjcu/1IrH/9OJhn/RRkN/1MmGf9cLB7/cD0s/245KP9tNSP/bzQi/3E0Iv92
-NyT/gUIt/41NOf+YQy3/m0kx/4tDJf+OUyT/tow8/9a4T//hz1T/7+Fh/+rZYv/z3W7/+t90/9SqSP/B
-izT/rWsk/79yMv/nk1n/67B0/9uhYv/XoFr/u4Q+/5hjIv+caCb/vYpH/35JGf9mMw//RBMF/2c4JP9g
-MiT/UCYZ/1kxIv9qRTL/mXVh/6l8af+Wa1z/QBgM/zkVDP9JKCH/JQQC/ysKAv89GRL/elNI/2c9L//C
-iHX/gEs6/4pgU/9kOSj/iVU2/8yNZv/KgVL/wnZI/8B4UP+2bkr/zoJa/9WDV//biFf/35Bg/8KDXP/M
-lHD/+O3P//nqzP/87ND/2Lqg/6uFbf+yhG//uol3/7WDdv+4iX7/nnJq/1oxKf9NJh//SiQc/1IsI/9O
-KB//XDQr/1AsIv9TLCP/YDgt/1cuI/9kOCz/XC4i/2o3Kf9qNCT/cDkn/3k/LP+AQy3/f0Aq/4A/KP+H
-Qiz/jEYv/45IMf+URCT/mEwp/5FKJv+WWin/vI0//+bCW//53WX/++dr/+vQYP/01Gr/471Y/9SnSP/j
-qk3/vHwv/8h9PP/ej1T/zI9Y/69yOf+dYyn/jVMb/35HF/+SWh7/1J5a/8+bXf+MVyr/fEgk/1QiCf9y
-QC3/YDAe/20/Lf9ZLxz/RhsJ/14vHv8yBAL/Uigb/z0WD/8iAgH/NBMO/zAPCP9OKSL/elNI/2g+MP/G
-j3v/gEw7/3lOQf9PJRT/iFU4/9WZcP/Kg1T/vHJE/755Uv+1bkr/04dg/8x8UP/PfEv/1IlZ/76BWf/k
-sIv///3k//3z3P/879n/uJuH/5x2Y/+5jHv/pHJl/7WBdf+/jYD/xJKH/31MQf9sPTH/Xy4i/2IxJP9n
-Myf/bTkt/2Q7Mf9aMSb/ZDot/2U6LP+JW0z/h1RF/4dSQf9zPCr/bzQf/4BCLP+NSzP/jkkv/4xGLP+P
-SS3/kEcr/4tCJv+KQxv/kk0i/41KIv+JTBz/p3Eq/9WlSP/ovlH/37hL//jVbP/wxGL/r4At/698K//j
-rVD/xok6/8uJRv/Ig0r/pmUz/4xKHP+RUh//sXQ2/7h9Ov+yeDb/yZFP//K7fP/BjFf/lV82/4RPLv9z
-PSX/ajYg/1EeDP9eLBn/VSMQ/1wsG/9TJBf/XTMm/0cfGP9bODL/TSsn/xkCAf9cNzD/e1RI/2g+MP/D
-jnn/ilhG/142KP9HIA//lmZJ/8qQaP/Gg1X/u3RI/7RyTP/EgV3/wHlS/9SJXf/CdUT/zYZW/694Tv/2
-x6H///3p//766f/25NX/rZGG/6J8cv+ic2r/s391/7iBdv+ja1z/nWRV/5BWRP+FSjf/ejwp/39ALf+O
-Sjj/hT8u/25ANP9dLSL/iFpL/+W1pv/3z7//xpJ//49XQv+KTzn/hUgu/4dGLP+dXD7/kk4u/49KKf+Z
-UC//jEMi/6VaOP+QViH/un5G/5RYKP+NUB7/kVUc/7p/L//hqEf/9cJc/+60V//Hizn/vIIx/7F6K/+k
-bST/7rdh/+Wtaf+7gkf/olwt/755Rf/LiVD/v35C/7R2N/+8fz//w4hI/8CHS//BiFT/k1ku/10lCv9W
-Hwn/ajMa/2QuF/9eKBT/cjwn/2QzIv9YKRv/YTcq/1ErIv9FJB3/Px0Z/zMTC/9cOTH/e1RI/2M5K//E
-kHv/hFRD/1MsH/8rBAL/oHJW/82VcP/Ih1v/x4NZ/7V2Uv+4e1j/unhR/82HW//If07/zoxa/8KSZ//6
-47r///7t///87//p2c7/ooeA/512cf+hcW7/rnly/610av+iZ1b/m11H/4lKMv+XVDr/mVI4/6thSP+n
-WEL/m0kz/41aS/+qdGb/4q2d//vm1v/64s//zpV//5FVPP+NUDb/lFY3/4lIKf+FQiH/mlcy/6VeOP+j
-XDX/rWY9/6tjOv+rezn/7rt5/8uSXP+gYy7/kU4a/7BsJ//JhTP/2JI8/61mI/+tZiT/o2Mi/5RZHf/m
-sFf/771o/8SUUv/AkFX/t3FA/9mTX//fm2L/v31E/6xtM/+vcTf/nWEr/3pAFP+XXS3/mF8z/35HIv9l
-LRD/cTke/4VONv95Qyv/YCgU/2AxIP9OIRP/XDMm/1YyKf9HJh//MBAL/y0NBv9vTET/e1ZK/2I6LP+8
-inb/hlhG/1g0KP8dAgH/mG1R/8SQa/++gFX/v4BV/86Tb//KkXD/0ZVu/9iYbP/bm2j/0Zhk/9evgf/+
-987///3u///88f/aysP/lnp4/5Zvbv+gcW7/qHFt/6NnW//UlYL/pWRL/305Hf+NSCf/l0ws/6dWOP+w
-Wj//zHJY/7Z6av/SlYP/5aiW//W+qv/1w6z/zI11/5RWOf+TUjX/nl47/5RTMP+RTif/o2A3/348Ff+j
-XzL/986d//S5iP/zynz/++uj/96nb/+qbTj/sGsw/8h+Of+6bCn/rFsh/7dlJ/+aTRv/rWYl/8aJO//p
-tl3/tIU4/4RYH/+BVyT/r2g4/69oOP/Dfkz/2Zdj/8uMVf+gYjD/iE0f/4xUJf9pMg//l2E4/7iEW/+g
-a0n/dkAk/3I8JP+GUDr/kFpG/5JoVf+EWkr/gVxO/2NAN/9OLif/PB4Y/zUXD/9yUkn/e1dK/2M8Lf+2
-hXH/il5N/3FPQ/9BHxD/mG5U/8mXc//HjGH/wYZd/7eCX/+8imj/0Jpy/8qRZP/VnGj/yZhk/+XFlf/+
-+9H//Pjn///87//Lu7L/jHBu/5Boav+dbW3/pW5n/6BlV/+jZU7/lFM2/41KJ/+BPBr/kkYk/6NSMP+4
-YUP/1Hte/7t4Y//Cf2r/rWpV/61qU//Egmf/r2tP/5FOLf+gXTv/9cGX/75/VP9/QBn/jlAj/30+FP+j
-ZTP/++Wt//zvt//52Yv/+NKK/7+IUf+sbDv/5p9k//S3dP/rnFL/3YtD/7NhJv/Fdjf/xn84//GxYv/2
-yHH/1qZY/4BVHv99UiL/jUoe/6tnOf/DgVL/v4BT/65wRP+bYDb/i1Ms/39KJP9yQBz/XCwM/18uEP91
-RCb/kGBE/6t5Y/+icV3/fEg3/2A4JP9LJRX/QyES/y4PA/8sEAf/JwwF/yoOBv90Vkz/e1lM/2Q9Lv/A
-kX7/flJD/3NTSf+QcmT/sYtx/9Kjgv/XoXj/0Zpx/7uMav/HmXn/1KR+/7yKXv/Ekl7/vZNe/+jPn//9
-88f/9/Ha//765/+8qpz/h2lj/4xjYf+YZ2X/oGlg/6BoWf96QCf/omZE/72AWP90MhD/fzgW/5JGJP+n
-Vzf/p1M4/59UPP+xZ07/qF5F/6RbP/+oYEL/iUIk/4M9Hf+ybkf/++W3//ndrf/EiFX/hEob/31DFf+v
-dz3/9cKD/+22d//YqFv/26Zi/7Z4R/+ZViz/yYNO/+2kZ//rn1v/8KFc//KoaP/yp2b/4JtU/9WWTP+z
-fDH/06FX/8GRWP+EVCb/lVYq/6RlOP+fYzr/iU0o/3lBIP95QyX/c0Ik/2U1Gv9GGQb/SR0H/04kCv9I
-Hgf/SiEM/2tALf9xRzb/UCUX/zsWBf8oBAL/KwwC/ygMAv8tFQv/IAcC/y0VC/+Xe3H/fFpN/2M9Lv/G
-loX/a0Az/1o7Mf+4m5D/uJN7/7OHZ//Gk2r/xZJp/9Ckg//Pp4f/zaJ8/7eMYP/AlF//wZ5o//Lgr//+
-+sz/9e3O//302/+pk4H/gWNY/4lfWv+RYVz/lmJY/6FqWP+eaEv/snxW/86Xa/+RVyz/mVkw/4pGI/+B
-OBz/iz4l/5NBKf+iUDj/plU5/6pbPv+kVzf/gjoa/4Y+G/+5dkr/9cGO//jSnf/2xYz/zJRa/4pWIP/G
-lFP/+dya/617PP+6gTr/0JVU/8aFVv+HQh3/k04i/7hwO//BeTz/unM1/8J6P//yrGz/0Y9J/6NmJf/H
-j0P/pW8t/6VvO//Rmm7/snhL/45UK/9tNBP/Yy0R/2EtFf9bKhX/WCsZ/100If9IIQ//Qh4L/0AeCv85
-FwT/LgsC/y4LAv8vCwL/KAQC/zcXBP9VNiP/XUIx/y8XC/8hCgL/HwkC/ysVCv+EaF7/eVpM/2M9Lv+m
-d2f/ckg6/1M1Lf+ghHr/mndg/35SNP+0g1v/sIFZ/6qBYf+ZdFX/j2lE/6J5Tf+3kFr/vp9o/+veq//7
-9cf/+O3G//zsyv+Te2P/ellJ/4ZdUv+KWlH/ilhJ/5dlT/+SYUD/kF83/6d3Sf+3hlb/16B1/8yRbf+C
-Qib/gT8n/5tDKv+VPST/kTwh/5pGKf+dTSv/jkIf/5BII/+saDv/7a97/72DTP+tdTv/5rNz/7qKSv/E
-llP/++mi/6Z5OP+fXSL/uXU7/9KMYP+WTyr/j0sh/6xpN/+8ez7/rnAy/6hpMP+/gUT/5Kdh//W+cf/f
-plj/f0QW/39AF/+WVTD/pnBG/5xlPv97Rif/WScP/1IkEv9dMiT/Vy8k/0IeFf9CIhb/ORoP/zMWCf86
-HxH/OyAV/y0SBv8tEgb/QCUc/zseB/9kSDP/Z048/ywWCf8hDQL/LRkQ/z4nHf+Uem//eFtM/2A9Lf95
-Szv/iGBT/2hKQv9+Ylj/fVtF/2I5HP++jmn/uIpk/6iBYP+FYkP/c04r/5x3Sv+wi1b/qItV/8C2g//I
-xpf//O/F//jmwf+DalD/c1I//4ZbT/+FVkv/gFA//49eRv+UZUP/l2pA/4JWJ/+SZDX/xJJn//fPq/+f
-ZEb/djkh/5xCKP+WOyL/kz0g/5lEJv+XRiT/j0If/49HIf+YVSj/oGIw/+yzeP+TXCX/jlwj/5xtLv+o
-ezn/8smA/510Mf+DOxX/mVAf/9CIXf+mXzr/h0Mc/4lIG/+eYin/pGks/5dcJv+gZSz/rnQy/9+lWv+y
-eDL/mVwi/5NQJP99ORj/hVEq/3M/HP9wPyL/fU84/3JHNv9WLST/USwl/2VEP/9MLib/WD00/0EoHf8p
-EQb/Nx4V/0QsIv85IBn/MBgQ/0YrFP8vFQP/IQoC/xoFAf8kEAb/EAEA/yQNAv+pj4T/d1pL/2A9Lf9U
-JyL/hl5X/2xPQ/9NOiz/V048/2NfTP9KSDT/YFtI/4J5aP+hk4b/sZ6T/8Kso/+ikIj/mYmA/4h7c/+S
-hn7/6cGh/9+4mv99XET/c1VD/29SQ/9vUkb/eFpP/3VRRP+GXEz/jl9K/3ZBKf9+Rir/gEgr/8yTdP/S
-mXr/ajEW/3ZGG//VpHP/pm9G/3U5F/+IRyb/gjob/4g9Hf+iUy7/o1Aq/92KX//QfFH/lkMf/5NCIf+h
-Ty//z4Fj/7xtUv+FNhb/oFIu/8F6VP+jXzn/czQT/3o9G/+XWzX/pWZE/5VTM/+RTTD/hT8k/7x3Xf+0
-clf/mltB/4ZMMv93PyX/gFEy/3RHKv9kOB//VS4Z/1MwH/9WOSz/TjUq/0AtJf8zIh3/QjMv/0s7Ov89
-LSz/IA8K/xABAP8VAgH/Iw4K/xYBAf8zFwz/Lg8G/xkCAf8ZAgH/JQMC/zMQCv+lg33/fllS/2ZBOv9h
-OTH/Zj83/1M2Kv9ZRDb/V0o4/0E6Jv+HgGz/1868/97Swf/Ku6z/1b+1/+PNw//y3NP/+uTb/9zKwv+d
-i4P/roZo/66Gav+Na1X/cFJA/21PQv9mSkD/cVNJ/3dVSf9/V0n/gFRB/3A9J/9pNBz/fEYq/5ReQf+k
-blH/kFo9/3ZEGv/0v5H/9cCY/55hPf+EQSH/jUUm/4s+H/+SQiD/k0Mf/7poPv/Vg1f/plYu/5hJJv+v
-YT//s2VI/6NXO/9+MxT/l0wp/51XNP+ZVzL/ZCcM/35CIP+KTiz/mFs6/6lqSf+dW0D/fDgf/4JAJv+O
-TDT/jE82/4VNMv+JUjr/eUks/3RHK/9nOyL/VS4Z/0glFv9BJBf/Nh4U/ywWD/82Ix7/KhkW/yMSD/8n
-FhP/Mh8a/zEeGP8iDQn/FAEB/zIUB/98XlP/oIF3/4dpX/9dPTT/Qx8Z/0IfGP+5l5D/e1dQ/2ZCOf9Y
-NCr/Zkc6/11AMv9UPC7/Yk48/9fGsv/i1L//mox4/52Mef+gjHv/sJqN/56EeP+tkYf/vZ+W//LUzf/7
-6OD/1ayP/7CIb/+aeGP/Y0Q0/2dLQf9lSkP/aU1G/2hJQv94Ukj/fFFE/3VINP9WJRD/eEcw/207I/9z
-Qiv/mGdP/3lCG/+JTyj/omVA/6ZlRP+hXDz/jUMm/4A0F/+gUjD/sWE6/65fNv+9cUT/oVYt/6NbM/+q
-Yz7/dzEW/6hhQ/+QSCj/ikQk/388HP9+QB//azAS/3pCIf+GTS3/jVI0/6JmSP+ucFb/q2pR/4VGL/+B
-Qy3/cjci/2YwGf92QSn/ek0x/3RHLP9gNx//SCEO/zgVBf81Fwr/OyAX/z4mIP8ZBAH/IxAL/ykWEf8h
-DQj/FQEB/xUBAf8pEgv/PiYg/5N0Zf+pin3/rI2A/6iGff+hf3b/hmJb/1gzLP+ceHH/elZN/2ZCOf9L
-LiH/Z0o7/4BjVf+NcF//17uq/9u/rv+Yfmv/07qn/+zTwP/75tP/++vZ//ndzv/53dH/2LGn/8melv/f
-sar/+Ni9/8efiP+QbFj/YkM1/2FFPf9gREL/ZEhG/19APP9sSUH/elRK/35URP9WKRf/bkEu/25BLv9V
-Khf/aD4q/6FmQP+NUC3/fT4f/4pGKv+kXkH/wHZZ/71xUv+URyb/uW5G/8N5Tf+vZzv/mFIo/6hlO/+b
-WTT/TxAG/5tZOv+4dFf/gD8i/2svE/9fJgv/g00u/2s3Gf+LVzj/i1U5/5VcQv+malL/1ZmC/7V3Y/+d
-ZE//e0Ux/18tGf9ZJxP/Wy4X/2EzHf9hNyP/WjMh/0wpG/8/IBT/NRkQ/y4WDv80HRj/KBIN/xsDAf8b
-AgH/MhkU/2BFPv+UeXH/t5uT/7GPgP+siXz/nntu/5x5bv+he3H/jWdf/1kyKv+NamH/dlJJ/2ZCN/8z
-Hw3/dFxM/9W5qP+xj3//sYt6/592Zv/XsJ3/8s23//bVvv/iwar/0rSc/+C8qP/YrZz/5bKm/92jmf/S
-kov/zKCG/7eNd/9wSzn/a0w//11BOv9TNzb/X0NE/15BQP9ePzv/a0hA/3lTSf9pQTT/WzIk/2pENf9F
-IBL/PBkK/4lMLP+sbE7/fTsh/2MfCv9rJg//pl1E/9aMbv+ANhn/hj4c/7hySf+/e03/wH9S/6lrQP+H
-SyX/WR4J/2wwE//FiXD/e0Eo/1AZB/9NGgb/fU0y/1ssFP+AUDb/iVY//5ljTf+GTDn/v4Vy/7yFc/+x
-fGn/pHNh/5JkUf9wQzD/WCwX/1QnFf9NIxH/RR8P/zwYDP8xEAb/KQoC/yQHAv8iBgL/KRAK/0MpJP9u
-U0z/mn52/6+RiP+pioD/nHxy/6J6bP+kfG//pn5x/6qBdv+ie2//iGFX/04nHf92UEb/c01D/2hCNv80
-JxT/sqGM/7SWhf+9lYX/jlxN/614Z//lsZ7/16aQ/8icgv/Bm3//9M60//nawf+qdWD/yot8//Com//P
-fnb/qHlf/7SGb/9fNyX/Yj4y/1w+N/9WOzn/Wz9A/1Q4Of9cPTv/XDs3/29LQv+AWlD/WDQq/105Lv9G
-Jhr/PR4U/2wxF/+iZUr/dzki/3UzH/9tKhf/fTgj/8+Kb/+1cFH/cy8Q/307F/+1dEn/9b2P/7V4T/9u
-MhL/ej8e/2oxFf+falX/eUQw/zQFAv9IGwb/VCkU/1AlEP9mOiT/f1A9/4RSQP97RTb/qXNj/7eCdP+q
-eGn/sINy/7aNff+edmb/lWtY/39TQ/9hOSr/Uisd/04qHv9WMyr/Y0Q6/21PR/+Ia2X/lHdx/6OFfv+p
-ioL/qIh//6aEe/+phnv/rYp9/6p8bv+jdWn/n3Rn/6h8cP+pf3P/kWhd/0McEP9OJxv/cEs//2hCNv9S
-TDP/wLKc/7aZhf/FmIf/SxIG/7p4Z//ZmIP/rnBZ/9mlif/RooL/+di4//nbv/+4e2L/q2FO/8x0Zv+/
-YFP/pHFU/8aVe/+CVkL/UCob/1g4L/9ePzv/VTg3/04xMP9aOzn/Wjk0/2NAOP96Vk3/aUY9/1Y1K/9P
-MSf/QCIY/0sXBv+aZEz/fUYw/2ctG/9bIA//YiQS/6VmTv+paUz/ejob/2EjC/+LTSb/3qJ4/8GGXf91
-ORn/iU4u/3s/Iv9fMiH/ckU0/zcNA/9CGwr/NhED/0IeDf9cMyT/c0g4/2M1J/+VZVr/rXtw/7CAdP+g
-cmb/oXls/6qFd/+ohnf/tIp9/6qCdP+kfG//pn9z/6eEef+nhXz/p4d+/6qLgv+pioL/pYZ//6ODev+k
-gnn/p4R5/6eCdf+ie27/nHRn/6Z0Zf+oeWv/rH1v/6V3a/+TZ1z/gFVJ/z0VB/9HIBP/bkg6/2ZDNP+J
-iG3/ua2V/8aplf9vPy7/VhcH/6FXRf+jWET/1I1z//W9nf/1vpr/+Niz//jXtP/0tJf/plM7/6RDMf/Q
-aVj/fUYn/8WRdf+4iXL/UScW/1UxJv9XODL/Ti8r/1g5N/9TMy//XT02/1o2Lf9gPDP/eFZK/1k5L/9U
-Niz/MBIK/zoQBP+AVT7/eUw4/2QzIv9WIhP/SBIG/3Y9KP+tc1n/ZywQ/3U5Gf9xNRT/iU0o/8CEYP+h
-ZUX/hkkt/2EjDf8xCgL/aEI2/00qG/83FQj/MRID/zYXCf9kQDT/a0Q5/1sxJv+0hXz/onNq/51vZf+e
-dWr/o31z/5Z3aP+XeWz/pn9x/6J7b/+jfHD/qYN5/6qHfv+nhHv/pYN7/6iGfv+nhX3/pYN6/6OAd/+k
-fnT/pX5x/6d/cf+pf3L/qn9y/616a/+pdmf/pnRl/6BxY/+abGD/jmNX/0EZDf86FAb/a0g5/2ZDNP+f
-oIT/qJ2E/9Cznf9oNiX/SAkE/4w8Kf+aRzH/6pp+//XBn//3zKf/25x0/+6thf/zsY//pUww/9VvV/+g
-NiH/f0Qi/8aPb//Hlnv/bkEu/1MsH/9PLCP/Wzs0/0knIv9UMSv/WjUu/1w1LP9eNy7/aEQ4/2pIPP9M
-LSL/KAgC/ykKAv9GJRL/ZkMz/25IOf9QJRj/OQ0D/08gD/99SDH/om1Q/3Q9H/93PB3/Wh4J/5VZO//C
-g2n/ZicT/14eDf86GRD/PB0U/1s+Mv8zFw3/LxMH/yoOAv9ePzT/Xzsy/39XUP+Wa2X/oXRv/5dsZv+Q
-aGH/lHFo/5R3av+NcWb/nHdq/554bv+he3H/onx0/6B9dP+hfnX/on92/6SBeP+if3b/pH50/6V+cv+l
-fXD/pnxv/6Z7bP+me2z/qHps/6hyYv+zfnD/rnxt/5dnWf+sfnL/jGFU/zoTBf89Fwn/aUY3/2xLO/+d
-nIH/pZmB/8ankv9fLRr/QQcE/4EuHP+QOSL/pU8y//XAnP/QhV3/o1sz//S0i/+HNhf/4YZj/69KLP+q
-Pyb/jlQv/653VP/erY7/az8n/2A5Kf9VMSb/SSgf/00sJf9PLCT/VTEo/1cwJv9ZMSb/Yz0x/2VBNv9N
-LSH/Lw8E/yIKAv8vFgP/SC4e/4BjVf9sSj7/Tyob/zYOA/9PIhD/dEQq/4FOMv9qNBn/WiAK/2svGP+r
-bFj/dDUl/1MUBv8wEw3/NBkS/0EoIf8xGRH/JxAH/yYOBv9FJx//UC8o/4ljXP+Ybmn/n3Rv/5ZtaP+R
-a2P/kXFn/5F1av+OdGj/lW9l/5hyaP+bdW3/nHZu/5p3bv+beG//nHlw/6B6cP+he3H/ontv/6N7bv+k
-em3/pXpr/6V6a/+nemn/p3pp/7F7a/+yfGz/oG5f/5NjVf+qfHD/lmxg/zoUBv80EQP/ZEMz/2ZHN/99
-eGH/lYly/9m6pf9gLhv/UxAG/3UkEf+xVz3/ii8V/+KKZv/lkmj/y3tP/7tpP//Uf1X/6I5m/5U1F//K
-ZET/kFky/7B9WP/Vpob/fFI6/2I9LP9SMiT/Ph8W/08vKP9MKSH/Uy8m/1YvJv9WLiP/XTcr/2I+M/9T
-Myf/Ph0U/yIRAv8gDQL/HAoC/1U+NP9KMCf/TC0i/y4LAv87FAX/Sh8M/4VYQf9xPij/ViEN/08YBv+B
-Rjj/jFBG/0wQCP8pEg3/LRYR/ysUD/8tGBP/JxAK/yIKA/8rDgf/SSci/4liXf+MYl7/jWJd/4thXP+F
-YVj/gWNY/4FlWv+Bal3/j2xj/5JvZv+Vcmn/lnNq/5d0af+XdGn/m3Vr/5x3av+deGv/nndq/6B4a/+i
-eGv/o3hp/6R5av+lemv/pXpr/613Z/+zfW3/oG5f/6JzZf+sgXT/oHhr/zcUBf8uCwL/YkM1/2ZIOf9S
-SDX/jHto/8+wnf+KW0b/URIG/3UnEv/ReFv/w2ZF/5o9Hf/wmG7/1n9S/+SMXv/Wf1L/pk8m/9J3Tv+4
-XTX/i1wz/9OlgP+wiGj/lG9X/08wH/9JLB//Qice/0ouJ/9HKB7/Tywj/1EtI/9RKyH/VDAm/1w4Lv9W
-Niz/TCsi/xMCAf8gEAL/IxEG/zklHv88JB7/SzAq/zgaEP8sDAL/NRID/2dALP96Tzv/TB4N/0wcD/9S
-HhX/jllW/0wVE/8rFxL/KRUQ/yMQC/8mEw7/LRoV/x4GAv8sEQv/WTg1/49oY/+IXlr/hVpV/4heWf+F
-YVj/fmBV/31jV/+Ca17/hmNa/4lmXf+MaWD/jmti/45rYP+Ra2H/k25h/5VwY/+XcGP/l3Bj/5lxY/+c
-cmX/nnVl/592Zv+gd2f/oXho/59sXP+seWr/n29h/6h6bv+geGv/nHdq/zkXCv83Fwz/Y0Q3/2dKPP9D
-NCT/f2lZ/5p7aP/Ln4n/VhoI/3IoEf+uWTr/641p/9VyS/+UMxb/03NH/9V5Sv+nTiT/5JFf/7xrPP+m
-Vyr/nXVP/+O9mP+oiGj/hmlS/z4kFf9CKyH/QSsk/0UtKf9AJR7/SCoi/0opIP9IJR3/Sygf/1ExKP9U
-NC3/UTEq/yIQBv8dCgL/Ig0J/xgCAf8xGxn/NR0a/zsgG/8pDQL/LxIE/zkZCv9jQjH/SiUX/0IbEv80
-CgP/ZTs7/0gbHv8sGBb/IRAN/ycWE/8aCQT/OCUf/yILB/9JLin/ellW/4dgXP99U1D/ek9J/39WT/9+
-Wk//d1lM/3ddT/99Zlf/f11R/4JgVP+FYlf/h2RZ/4plWP+LZln/jWha/49oW/+TbV7/k21e/5ZuYP+Y
-cGL/mnJk/5x0Zv+ddWf/nnZo/6FvYP+kdWX/mGpc/6B1aP+VbmH/lHFk/zkZDf81Fwz/Wz80/19DOP9J
-NCf/XUU4/4hqWP/Zr5r/qnNa/3MvFP+INBf/u105/+uGXf+tRCH/uVMq/71bL//ehVL/y3pH/7FoNP+r
-ZDL/wqF6/9Gykf+vlnr/WUQv/zclF/8+LiX/NSYg/z4rKf8/KCX/Riwm/0krJf9HJyD/SCgh/08vKv9T
-NS7/UTUw/001L/8iCgb/HQYE/xQBAf87JCT/Jw8Q/zMbGP8uFRD/LBQI/yMJAv87IRP/UDUp/y8QCP8w
-EA7/OBga/0MhJ/8mFRL/HAoI/yobF/8VBAH/NiYf/y4XE/9mS0b/imlk/3lSTv92SkX/dEdB/3lOR/93
-UUf/clNG/3FWR/91Xk7/hGJW/4dlWf+LaF3/jWpf/49qXf+RbF//lG1g/5ZvYv+Ubl//lW9g/5dvYf+Z
-cWP/nHRm/513aP+eeGn/n3lq/6h5af+neGr/o3hr/6mBdP+hfG//lXNn/zUXDP8gAwH/XEI3/1pANf9E
-LCL/Wj4z/4BhUP+nfmn/3quQ/6tqSv+gUC7/mT0d/71VL/+4TSb/0Wg7/+B9Tf+vVyf/p1op/65sNf/a
-nWP/0LaT/7ykhf+Gc1r/OCoY/zEmG/80KiT/MCQj/zMmJv86KSf/QSop/0MnJf9CJiH/QiYh/0crKP9K
-Liz/SzAu/1E1Mv81GBf/PiIk/0wxNf9mS1H/Qyot/zMbHf8nEQ3/KBQL/yENAv8iDwL/RTIn/yINCf8n
-ERD/JxAU/zUfJ/8kFRH/HQ0J/ycYFP8ZCAX/KBgR/zkiHv9pTUj/elZS/3RMSP92SkX/d0tF/3lORf91
-UET/clNF/3FWRf9yWUf/e1lN/31bT/+BXlH/hGBT/4ZhU/+IY1X/i2VW/41nWP+JY1T/imRV/4tlVv+N
-Z1j/j2hb/5BrXf+RbF7/km1f/5xuYP+bbV//o3ls/5pzZv+TcGP/imte/080KP9ONCn/dFpP/2pPR/85
-HhX/fmBV/1o6Kv9wRzL/rHtg//XAnv/RhF//tlo0/7RMJ//FWC//tksk/7NPJP/AaDb/yn9I/+Slav/x
-unv/yLKQ/7qniP9ENB7/NikZ/ykhGP8nHx3/NS0s/ysfIf8wIiH/NSAh/zceHP84HBn/OBwZ/zsgHv88
-IiD/PSIj/0cmJv9FJCb/RSgr/0osMv9JLjT/QCYr/zQdH/8sFxX/Hw8G/yERBv8bDAL/KhwR/yITDf8U
-BAT/Khse/yMTG/8mFxP/IhMP/yMUEP8eDQr/GQgB/z0mIv9dQTr/XTk1/1syLP9jNjH/Zjox/2Q4L/9f
-OS3/XTsu/1k+Lf9YPy3/Xjww/2E/M/9mQjb/aEQ4/2tFN/9sRjj/b0k6/3FLPP90Tj//dE4//3VPQP93
-UUL/eFNF/3pVR/96V0j/eldI/4RXSP+AVEX/il9S/2lCNf9jQTT/dVdM/4JmW/+wlov/j3du/4FmXv9Q
-JyX/akI//1gxKv8+GBD/VjIm/4JhUf+zlIH/6cy4/8Cmj/+/pY7/tqCK/7Kchv+/rJb/1cGt/9jHsv/N
-vKn/uaGY/1xDOv8nEAf/ZlBI/1dEPP9VQjr/Sjgy/w8BAP8SAQD/FAEB/xQBAf8gBwL/KBIH/x8GAf8V
-AQH/FQEB/xcBAf8YAQH/GQIB/xsDAf8cBQH/HgYB/x8HAv8fBwL/IgoC/yIKAv8kDQL/Jg4C/ygSBP8r
-FQf/LhcL/y8YDP9CHxD/RCET/0kmGP9QLR//VzQl/147LP9jQDH/ZUIz/25LPP9wTT7/c1BB/3ZTRP93
-VEX/d1RF/3ZTRP92U0T/dExF/3FJQv9qRDz/ZD01/1w1Lf9ULiX/TCgf/0klHf9BHRT/PxsS/zoXDv82
-Ewr/Mg8G/zANA/8tDAL/LQwC/ykGAv8pBgL/JQYC/x8CAf8ZAgH/Kg0G/1Q7NP99ZF//m4V+/3ZgWf9J
-IB7/Zz87/2Q9Nv9TLCT/WTUp/1w7K/9kRTP/fmBM/7OZhP/AppH/yLKc/864pP/Vwqz/1cGt/7uql/+e
-jHv/UTow/0w1K/9aRDv/kXty/19MRP9VQjr/kH54/6qYkv96aGL/cFxX/1lDPP9LMyz/TjUs/04zK/9K
-MCT/TjMo/001J/9ONCj/TjYo/1A2Kv9QOCr/Ujgs/1I6LP9TOS3/Ujos/1M5Lf9TOy3/VDou/1U9Lv9Y
-PjL/WEAx/1pANP9iPzD/Y0Ax/2VCM/9nRDX/aUY3/2xJOv9tSjv/bks8/2hFNv9pRjf/bEk6/25LPP9v
-TD3/b0w9/25LPP9tSjv/bkY//2xEPf9qQzv/Z0A4/2Q9Nf9gOTH/XDgv/1s3Lv9XMyr/VTEo/1IvJv9Q
-LST/Tisi/00qIf9MKyH/TCsh/00rHv9IJhv/Ricb/0wtI/9KLiT/RSki/z8mH/8/JSD/hW9o/3ReV/9N
-JSD/Yjo2/2I7NP9ZMir/VjIm/0clFv88HQ3/Sy0b/19FMv94Xkv/j3ll/5+Idf+gjHr/jXlo/1tJOv8t
-Ggz/JxIH/ycSB/8nEAf/UT41/zglHv8nFA3/VUM9/3hmYP+YhH//h3Nu/19JQv9BKSL/Ry0k/1Y7MP9c
-QDX/YUQ4/1w/MP9dPjH/XUAx/14/Mv9eQTL/X0Az/15BMv9gQTT/XkEy/19AM/9dQDH/XT4x/1w/MP9e
-PzL/XUAx/19AM/9iPzD/Yj8w/2E+L/9gPS7/Xzwt/147LP9dOiv/XDkq/106K/9fPC3/YD0u/2I/MP9i
-PzD/Yj8w/2A9Lv9gPS7/Yjsz/2I7M/9iOzP/Yzw0/2M8NP9jPDT/Yj41/2I+Nf9iPzb/Yj82/2E+Nf9h
-PjX/Xz81/2BANv9hQTf/YkI4/2lHOv9fPTH/WTou/2FCOP9jRz3/WT03/0IpIv8wFxL/UDoz/1lDPP8A
-EAEAAAMAAAABAFoAAAEBAAMAAAABADMAAAECAAMAAAAEAABIhgEDAAMAAAABAAEAAAEGAAMAAAABAAIA
-AAEKAAMAAAABAAEAAAERAAQAAAABAAAACAESAAMAAAABAAEAAAEVAAMAAAABAAQAAAEWAAMAAAABADMA
-AAEXAAQAAAABAABHuAEcAAMAAAABAAEAAAEoAAMAAAABAAIAAAFSAAMAAAABAAEAAAFTAAMAAAAEAABI
-jodzAAcAAAIkAABIlgAAAAAACAAIAAgACAABAAEAAQABAAACJGFwcGwEAAAAbW50clJHQiBYWVogB+EA
-BwAHAA0AFgAgYWNzcEFQUEwAAAAAQVBQTAAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1hcHBsyhqV
-giV/EE04mRPV0eoVggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKZGVzYwAAAPwAAABlY3By
-dAAAAWQAAAAjd3RwdAAAAYgAAAAUclhZWgAAAZwAAAAUZ1hZWgAAAbAAAAAUYlhZWgAAAcQAAAAUclRS
-QwAAAdgAAAAgY2hhZAAAAfgAAAAsYlRSQwAAAdgAAAAgZ1RSQwAAAdgAAAAgZGVzYwAAAAAAAAALRGlz
-cGxheSBQMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0ZXh0AAAAAENvcHlyaWdodCBBcHBsZSBJbmMuLCAy
-MDE3AABYWVogAAAAAAAA81EAAQAAAAEWzFhZWiAAAAAAAACD3wAAPb////+7WFlaIAAAAAAAAEq/AACx
-NwAACrlYWVogAAAAAAAAKDgAABELAADIuXBhcmEAAAAAAAMAAAACZmYAAPKnAAANWQAAE9AAAApbc2Yz
-MgAAAAAAAQxCAAAF3v//8yYAAAeTAAD9kP//+6L///2jAAAD3AAAwG7SJSYnKFokY2xhc3NuYW1lWCRj
-bGFzc2VzXxAQTlNCaXRtYXBJbWFnZVJlcKMnKSpaTlNJbWFnZVJlcFhOU09iamVjdNIlJiwtV05TQXJy
-YXmiLCrSJSYvMF5OU011dGFibGVBcnJheaMvLCrVMjM0NQo2Nzg5OldOU1doaXRlXE5TQ29tcG9uZW50
-c1xOU0NvbG9yU3BhY2VfEBJOU0N1c3RvbUNvbG9yU3BhY2VEMCAwAEMwIDAQA4AMgBDUPD0+Cj9AQUJU
-TlNJRFVOU0lDQ1dOU01vZGVsEAmADRAAgA/SRApFRldOUy5kYXRhTxERaAAAEWhhcHBsAgAAAG1udHJH
-UkFZWFlaIAfcAAgAFwAPAC4AD2Fjc3BBUFBMAAAAAG5vbmUAAAAAAAAAAAAAAAAAAAAAAAD21gABAAAA
-ANMtYXBwbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABWRlc2MA
-AADAAAAAeWRzY20AAAE8AAAH6GNwcnQAAAkkAAAAI3d0cHQAAAlIAAAAFGtUUkMAAAlcAAAIDGRlc2MA
-AAAAAAAAH0dlbmVyaWMgR3JheSBHYW1tYSAyLjIgUHJvZmlsZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABt
-bHVjAAAAAAAAAB8AAAAMc2tTSwAAAC4AAAGEZGFESwAAADgAAAGyY2FFUwAAADgAAAHqdmlWTgAAAEAA
-AAIicHRCUgAAAEoAAAJidWtVQQAAACwAAAKsZnJGVQAAAD4AAALYaHVIVQAAADQAAAMWemhUVwAAAB4A
-AANKbmJOTwAAADoAAANoY3NDWgAAACgAAAOiaGVJTAAAACQAAAPKaXRJVAAAAE4AAAPucm9STwAAACoA
-AAQ8ZGVERQAAAE4AAARma29LUgAAACIAAAS0c3ZTRQAAADgAAAGyemhDTgAAAB4AAATWamFKUAAAACYA
-AAT0ZWxHUgAAACoAAAUacHRQTwAAAFIAAAVEbmxOTAAAAEAAAAWWZXNFUwAAAEwAAAXWdGhUSAAAADIA
-AAYidHJUUgAAACQAAAZUZmlGSQAAAEYAAAZ4aHJIUgAAAD4AAAa+cGxQTAAAAEoAAAb8cnVSVQAAADoA
-AAdGZW5VUwAAADwAAAeAYXJFRwAAACwAAAe8AFYBYQBlAG8AYgBlAGMAbgDhACAAcwBpAHYA4QAgAGcA
-YQBtAGEAIAAyACwAMgBHAGUAbgBlAHIAaQBzAGsAIABnAHIA5QAgADIALAAyACAAZwBhAG0AbQBhAHAA
-cgBvAGYAaQBsAEcAYQBtAG0AYQAgAGQAZQAgAGcAcgBpAHMAbwBzACAAZwBlAG4A6AByAGkAYwBhACAA
-MgAuADIAQx6lAHUAIABoAOwAbgBoACAATQDgAHUAIAB4AOEAbQAgAEMAaAB1AG4AZwAgAEcAYQBtAG0A
-YQAgADIALgAyAFAAZQByAGYAaQBsACAARwBlAG4A6QByAGkAYwBvACAAZABhACAARwBhAG0AYQAgAGQA
-ZQAgAEMAaQBuAHoAYQBzACAAMgAsADIEFwQwBDMEMAQ7BEwEPQQwACAARwByAGEAeQAtBDMEMAQ8BDAA
-IAAyAC4AMgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBpAHEAdQBlACAAZwByAGkAcwAgAGcAYQBtAG0A
-YQAgADIALAAyAMEAbAB0AGEAbADhAG4AbwBzACAAcwB6APwAcgBrAGUAIABnAGEAbQBtAGEAIAAyAC4A
-MpAadShwcJaOUUlepgAgADIALgAyACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABnAHIA5QAgAGcA
-YQBtAG0AYQAgADIALAAyAC0AcAByAG8AZgBpAGwATwBiAGUAYwBuAOEAIAFhAGUAZADhACAAZwBhAG0A
-YQAgADIALgAyBdIF0AXeBdQAIAXQBeQF1QXoACAF2wXcBdwF2QAgADIALgAyAFAAcgBvAGYAaQBsAG8A
-IABnAHIAaQBnAGkAbwAgAGcAZQBuAGUAcgBpAGMAbwAgAGQAZQBsAGwAYQAgAGcAYQBtAG0AYQAgADIA
-LAAyAEcAYQBtAGEAIABnAHIAaQAgAGcAZQBuAGUAcgBpAGMBAwAgADIALAAyAEEAbABsAGcAZQBtAGUA
-aQBuAGUAcwAgAEcAcgBhAHUAcwB0AHUAZgBlAG4ALQBQAHIAbwBmAGkAbAAgAEcAYQBtAG0AYQAgADIA
-LAAyx3y8GAAg1ozAyQAgrBC5yAAgADIALgAyACDVBLhc0wzHfGZukBpwcF6mfPtlcAAgADIALgAyACBj
-z4/wZYdO9k4AgiwwsDDsMKQwrDDzMN4AIAAyAC4AMgAgMNcw7TDVMKEwpDDrA5MDtQO9A7kDugPMACAD
-kwO6A8EDuQAgA5MDrAO8A7wDsQAgADIALgAyAFAAZQByAGYAaQBsACAAZwBlAG4A6QByAGkAYwBvACAA
-ZABlACAAYwBpAG4AegBlAG4AdABvAHMAIABkAGEAIABHAGEAbQBtAGEAIAAyACwAMgBBAGwAZwBlAG0A
-ZQBlAG4AIABnAHIAaQBqAHMAIABnAGEAbQBtAGEAIAAyACwAMgAtAHAAcgBvAGYAaQBlAGwAUABlAHIA
-ZgBpAGwAIABnAGUAbgDpAHIAaQBjAG8AIABkAGUAIABnAGEAbQBtAGEAIABkAGUAIABnAHIAaQBzAGUA
-cwAgADIALAAyDiMOMQ4HDioONQ5BDgEOIQ4hDjIOQA4BDiMOIg5MDhcOMQ5IDicORA4bACAAMgAuADIA
-RwBlAG4AZQBsACAARwByAGkAIABHAGEAbQBhACAAMgAsADIAWQBsAGUAaQBuAGUAbgAgAGgAYQByAG0A
-YQBhAG4AIABnAGEAbQBtAGEAIAAyACwAMgAgAC0AcAByAG8AZgBpAGkAbABpAEcAZQBuAGUAcgBpAQ0A
-awBpACAARwByAGEAeQAgAEcAYQBtAG0AYQAgADIALgAyACAAcAByAG8AZgBpAGwAVQBuAGkAdwBlAHIA
-cwBhAGwAbgB5ACAAcAByAG8AZgBpAGwAIABzAHoAYQByAG8BWwBjAGkAIABnAGEAbQBtAGEAIAAyACwA
-MgQeBDEESQQwBE8AIARBBDUEQAQwBE8AIAQzBDAEPAQ8BDAAIAAyACwAMgAtBD8EQAQ+BEQEOAQ7BEwA
-RwBlAG4AZQByAGkAYwAgAEcAcgBhAHkAIABHAGEAbQBtAGEAIAAyAC4AMgAgAFAAcgBvAGYAaQBsAGUG
-OgYnBkUGJwAgADIALgAyACAGRAZIBkYAIAYxBkUGJwYvBkoAIAY5BicGRXRleHQAAAAAQ29weXJpZ2h0
-IEFwcGxlIEluYy4sIDIwMTIAAFhZWiAAAAAAAADzUQABAAAAARbMY3VydgAAAAAAAAQAAAAABQAKAA8A
-FAAZAB4AIwAoAC0AMgA3ADsAQABFAEoATwBUAFkAXgBjAGgAbQByAHcAfACBAIYAiwCQAJUAmgCfAKQA
-qQCuALIAtwC8AMEAxgDLANAA1QDbAOAA5QDrAPAA9gD7AQEBBwENARMBGQEfASUBKwEyATgBPgFFAUwB
-UgFZAWABZwFuAXUBfAGDAYsBkgGaAaEBqQGxAbkBwQHJAdEB2QHhAekB8gH6AgMCDAIUAh0CJgIvAjgC
-QQJLAlQCXQJnAnECegKEAo4CmAKiAqwCtgLBAssC1QLgAusC9QMAAwsDFgMhAy0DOANDA08DWgNmA3ID
-fgOKA5YDogOuA7oDxwPTA+AD7AP5BAYEEwQgBC0EOwRIBFUEYwRxBH4EjASaBKgEtgTEBNME4QTwBP4F
-DQUcBSsFOgVJBVgFZwV3BYYFlgWmBbUFxQXVBeUF9gYGBhYGJwY3BkgGWQZqBnsGjAadBq8GwAbRBuMG
-9QcHBxkHKwc9B08HYQd0B4YHmQesB78H0gflB/gICwgfCDIIRghaCG4IggiWCKoIvgjSCOcI+wkQCSUJ
-OglPCWQJeQmPCaQJugnPCeUJ+woRCicKPQpUCmoKgQqYCq4KxQrcCvMLCwsiCzkLUQtpC4ALmAuwC8gL
-4Qv5DBIMKgxDDFwMdQyODKcMwAzZDPMNDQ0mDUANWg10DY4NqQ3DDd4N+A4TDi4OSQ5kDn8Omw62DtIO
-7g8JDyUPQQ9eD3oPlg+zD88P7BAJECYQQxBhEH4QmxC5ENcQ9RETETERTxFtEYwRqhHJEegSBxImEkUS
-ZBKEEqMSwxLjEwMTIxNDE2MTgxOkE8UT5RQGFCcUSRRqFIsUrRTOFPAVEhU0FVYVeBWbFb0V4BYDFiYW
-SRZsFo8WshbWFvoXHRdBF2UXiReuF9IX9xgbGEAYZRiKGK8Y1Rj6GSAZRRlrGZEZtxndGgQaKhpRGnca
-nhrFGuwbFBs7G2MbihuyG9ocAhwqHFIcexyjHMwc9R0eHUcdcB2ZHcMd7B4WHkAeah6UHr4e6R8THz4f
-aR+UH78f6iAVIEEgbCCYIMQg8CEcIUghdSGhIc4h+yInIlUigiKvIt0jCiM4I2YjlCPCI/AkHyRNJHwk
-qyTaJQklOCVoJZclxyX3JicmVyaHJrcm6CcYJ0kneierJ9woDSg/KHEooijUKQYpOClrKZ0p0CoCKjUq
-aCqbKs8rAis2K2krnSvRLAUsOSxuLKIs1y0MLUEtdi2rLeEuFi5MLoIuty7uLyQvWi+RL8cv/jA1MGww
-pDDbMRIxSjGCMbox8jIqMmMymzLUMw0zRjN/M7gz8TQrNGU0njTYNRM1TTWHNcI1/TY3NnI2rjbpNyQ3
-YDecN9c4FDhQOIw4yDkFOUI5fzm8Ofk6Njp0OrI67zstO2s7qjvoPCc8ZTykPOM9Ij1hPaE94D4gPmA+
-oD7gPyE/YT+iP+JAI0BkQKZA50EpQWpBrEHuQjBCckK1QvdDOkN9Q8BEA0RHRIpEzkUSRVVFmkXeRiJG
-Z0arRvBHNUd7R8BIBUhLSJFI10kdSWNJqUnwSjdKfUrESwxLU0uaS+JMKkxyTLpNAk1KTZNN3E4lTm5O
-t08AT0lPk0/dUCdQcVC7UQZRUFGbUeZSMVJ8UsdTE1NfU6pT9lRCVI9U21UoVXVVwlYPVlxWqVb3V0RX
-klfgWC9YfVjLWRpZaVm4WgdaVlqmWvVbRVuVW+VcNVyGXNZdJ114XcleGl5sXr1fD19hX7NgBWBXYKpg
-/GFPYaJh9WJJYpxi8GNDY5dj62RAZJRk6WU9ZZJl52Y9ZpJm6Gc9Z5Nn6Wg/aJZo7GlDaZpp8WpIap9q
-92tPa6dr/2xXbK9tCG1gbbluEm5rbsRvHm94b9FwK3CGcOBxOnGVcfByS3KmcwFzXXO4dBR0cHTMdSh1
-hXXhdj52m3b4d1Z3s3gReG54zHkqeYl553pGeqV7BHtje8J8IXyBfOF9QX2hfgF+Yn7CfyN/hH/lgEeA
-qIEKgWuBzYIwgpKC9INXg7qEHYSAhOOFR4Wrhg6GcobXhzuHn4gEiGmIzokziZmJ/opkisqLMIuWi/yM
-Y4zKjTGNmI3/jmaOzo82j56QBpBukNaRP5GokhGSepLjk02TtpQglIqU9JVflcmWNJaflwqXdZfgmEyY
-uJkkmZCZ/JpomtWbQpuvnByciZz3nWSd0p5Anq6fHZ+Ln/qgaaDYoUehtqImopajBqN2o+akVqTHpTil
-qaYapoum/adup+CoUqjEqTepqaocqo+rAqt1q+msXKzQrUStuK4trqGvFq+LsACwdbDqsWCx1rJLssKz
-OLOutCW0nLUTtYq2AbZ5tvC3aLfguFm40blKucK6O7q1uy67p7whvJu9Fb2Pvgq+hL7/v3q/9cBwwOzB
-Z8Hjwl/C28NYw9TEUcTOxUvFyMZGxsPHQce/yD3IvMk6ybnKOMq3yzbLtsw1zLXNNc21zjbOts83z7jQ
-OdC60TzRvtI/0sHTRNPG1EnUy9VO1dHWVdbY11zX4Nhk2OjZbNnx2nba+9uA3AXcit0Q3ZbeHN6i3ynf
-r+A24L3hROHM4lPi2+Nj4+vkc+T85YTmDeaW5x/nqegy6LzpRunQ6lvq5etw6/vshu0R7ZzuKO6070Dv
-zPBY8OXxcvH/8ozzGfOn9DT0wvVQ9d72bfb794r4Gfio+Tj5x/pX+uf7d/wH/Jj9Kf26/kv+3P9t//+A
-DtIlJkhJXU5TTXV0YWJsZURhdGGjSEoqVk5TRGF0YdIlJkxNXE5TQ29sb3JTcGFjZaJOKlxOU0NvbG9y
-U3BhY2XSJSZQUVdOU0NvbG9yolAq0iUmU1RXTlNJbWFnZaJTKl8QD05TS2V5ZWRBcmNoaXZlctFXWFRy
-b290gAEACAARABoAIwAtADIANwBMAFIAXQBkAGsAeAB/AIcAiQCLAJAAkgCUAJ0AogCtAK8AsQCzALgA
-uwC9AL8AwQDDAMgA3wDhAONLoUumS7FLukvNS9FL3EvlS+pL8kv1S/pMCUwNTBhMIEwtTDpMT0xUTFhM
-WkxcTF5MZ0xsTHJMekx8TH5MgEyCTIdMj137Xf1eAl4QXhReG14gXi1eMF49XkJeSl5NXlJeWl5dXm9e
-cl53AAAAAAAAAgEAAAAAAAAAWQAAAAAAAAAAAAAAAAAAXnk
-</mutableData>
-        </image>
+        <image name="2020006000" width="90" height="51"/>
     </resources>
 </document>

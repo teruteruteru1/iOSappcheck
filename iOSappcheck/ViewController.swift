@@ -64,6 +64,7 @@ class ViewController: UIViewController ,UITableViewDelegate ,UITableViewDataSour
             textField.keyboardType = UIKeyboardType.numberPad
 //            gameID.append(textField.text!)
             gameID[0] = textField.text!
+            print(gameID)
         }
         // OKボタンの設定
         let okAction = UIAlertAction(title: "OK", style: .default, handler: {(action:UIAlertAction!) -> Void in

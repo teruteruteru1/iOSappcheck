@@ -78,7 +78,8 @@ class SecondViewController: UIViewController ,UICollectionViewDelegate ,UICollec
         } else {
             Cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell2", for: indexPath) as! OutputCell2
             Cell2.IDLabel.text = gameID[0]
-            print(gameID[0])
+            print(gameID[0
+                ])
             return Cell2
         }
     }
